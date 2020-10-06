@@ -16,7 +16,6 @@ header {
 
 /* 1 */
 section {
-	
 	color: black;
 	background-color: #C6DEA6;
 	margin: 1em;
@@ -31,7 +30,7 @@ p {
 }
 
 /* 5 */
-h1 h2 h3 h4 h5 {
+h1, h2, h3, h4, h5 {
 	text-align: center;
 	color: black;
 	background-color: #7EBDC3;
