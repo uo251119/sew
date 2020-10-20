@@ -107,19 +107,19 @@ a {
 /* 11 */
 a:link {
 	color: blue;
-	background-color: lightgray;
+	background-color: #d3d3d3;
 }
 
 /* 11 */
 a:visited {
 	color: firebrick;
-	background-color: lightgray;
+	background-color: #d3d3d3;
 }
 
 /* 11 */
 a:hover {
 	color: black;
-	background-color: lightskyblue;
+	background-color: #87cefa;
 }
 
 /* 11 */
@@ -130,7 +130,7 @@ a:active {
 
 /* 1 */
 nav {
-	background-color: cadetblue;
+	background-color: #5f9ea0;
 	color: black;
 	margin: 1em;
 	padding: 0.5em;
