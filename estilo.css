@@ -11,7 +11,21 @@ body {
 header {
 	color: black;
 	background-color: #C6DEA6;
+}
+
+/* 5 */
+h1, h2, h3, h4, h5 {
+	text-align: center;
+	color: black;
+	background-color: #7EBDC3;
+	padding: 1em;
 	margin: 1em;
+}
+
+h1 {
+	padding: 1em;
+	margin: 0;
+	font-size: 3em;
 }
 
 /* 1 */
@@ -29,14 +43,7 @@ p {
 	margin: 0.5em;
 }
 
-/* 5 */
-h1, h2, h3, h4, h5 {
-	text-align: center;
-	color: black;
-	background-color: #7EBDC3;
-	padding: 1em;
-	margin: 1em;
-}
+
 
 /* 1 */
 ul {
@@ -84,12 +91,18 @@ td {
 	text-align: start;
 }
 
+footer {
+	display: flex;
+}
+
 /* 1 */
 a {
-	margin: 1em;
+	margin: 0.5em;
 	padding: 0.5em;
 	font-weight: bold;
+	display: block;
 }
+
 
 /* 11 */
 a:link {
@@ -113,4 +126,57 @@ a:hover {
 a:active {
 	color: lightskyblue;
 	background-color: blue;
+}
+
+/* 1 */
+nav {
+	background-color: cadetblue;
+	color: black;
+	margin: 1em;
+	padding: 0.5em;
+	display: block;
+}
+
+nav > div {
+	display: flex;
+	border-style: outset;	
+}
+
+nav > h2 {
+	padding: 1em;
+	margin: 0.5em;
+}
+
+
+.protagonistas > div {
+	margin: 0.3em;
+	padding: 0.5em;
+	background-color: #CED097;
+}
+
+div > h2 {
+	padding: 0.3em;
+	margin: 0;
+}
+
+div > img {
+	width: 100%;
+}
+
+.protagonistas {
+	margin: 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns:  33% 33% 33%;
+	grid-template-rows: auto;
+}
+
+div > p {
+	text-align: center
+}
+
+video {
+	margin: 0;
+	padding: 0;
+	width: 100%
 }
