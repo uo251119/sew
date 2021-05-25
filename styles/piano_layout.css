@@ -1,0 +1,39 @@
+/* 0 0 1 */
+img.aside {
+    float: right;
+}
+
+/* 0 0 2 */
+nav li {
+    display: inline-block;
+}
+
+/* 0 0 2 */
+nav a {
+    display: block;
+}
+
+/* 0 0 1 */
+article img {
+    display: block;
+}
+
+/* 0 0 1 */
+article h4 img {
+    float: right;
+}
+
+/* 0 0 1 */
+aside {
+    float: right;
+}
+
+/* 0 0 1 */
+aside img {
+    display: block;
+}
+
+/* 0 0 1 */
+video {
+    display: block;
+}
