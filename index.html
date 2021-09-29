@@ -14,10 +14,24 @@
 </head>
 
 <body>
+    <nav>
+        <a href="index.html">Página principal</a>
+        <a href="publicaciones.html">Publicaciones</a>
+        <a href="premios.html">Premios</a>
+        <a href="opinion.html">Formulario de opinión</a>
+    </nav>
+
     <h1>Tim John Berners-Lee</h1>
 
-    <img src="images/tim_portrait.jpg" alt="Foto retrato de Berners-Lee" />
-
+    <picture>
+        <source media="(min-width:1000px)" srcset="multimedia/images/tim_portrait.jpg">
+        <source media="(min-width:300px)" srcset="multimedia/images/tim_small.jpg">
+        <img src="multimedia/images/tim_portrait.jpg" alt="Foto retrato de Berners-Lee" />
+    </picture>
+    <audio controls>
+        <source src="multimedia/audios/This_Is_For_Everyone.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <p>
         Sir Timothy John Berners-Lee es un científico de la computación conocido por ser considerado el inventor de de
         la World Wide Web. Actualmente es el director del World Wide Web Consortium (W3C).
@@ -25,7 +39,7 @@
 
     <h2>Proyectos actuales</h2>
     <h3>Solid</h3>
-    <img src="images/solid_logo.png" alt="Logo del proyecto Solid" />
+    <img src="multimedia/images/solid_logo.png" alt="Logo del proyecto Solid" />
     <p>
         Solid es uno de los proyectos actuales de Berners-Lee. Trata sobre la descentralización de la web,
         con el objetivo de lograr sistemas que "pertenezcan" más a los usuarios y con ello además mejorar la provacidad
@@ -52,8 +66,13 @@
         beneficios frente al estado actual de la web, que es muy heterogéneo.
     </p>
 
+    <h3>World Wide Web foundation</h3>
+    <video title="Video publicitario de la World Wide Web foundation" controls>
+        <source src="multimedia/videos/webfoundation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
     <footer>
-
+        <img src="multimedia/images/html5_valid.png" alt="Documento HTML5 validado" />
     </footer>
 </body>
 
