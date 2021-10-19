@@ -10,69 +10,70 @@
     <meta name="keywords" content="w3c,Berners-Lee,uniovi,web,informática" />
 
     <title>Tim Berners-Lee</title>
-    <link rel="stylesheet" type="text/css" href="tyle.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="layout.css" />
 </head>
 
 <body>
     <nav>
-        <a href="index.html">Página principal</a>
-        <a href="publicaciones.html">Publicaciones</a>
-        <a href="premios.html">Premios</a>
-        <a href="opinion.html">Formulario de opinión</a>
+        <a href="index.html" accesskey="h" tabindex="0">Página principal (HOME)</a>
+        <a href="publicaciones.html" accesskey="p" tabindex="1">Publicaciones</a>
+        <a href="premios.html" accesskey="g" tabindex="2">Galardones</a>
+        <a href="opinion.html" accesskey="f" tabindex="3">Formulario de opinión</a>
     </nav>
 
     <h1>Tim John Berners-Lee</h1>
+    <main>
+        <picture>
+            <source media="(min-width:1000px)" srcset="multimedia/images/tim_portrait.jpg">
+            <source media="(min-width:300px)" srcset="multimedia/images/tim_small.jpg">
+            <img src="multimedia/images/tim_portrait.jpg" alt="Foto retrato de Berners-Lee" />
+        </picture>
+        <audio controls>
+            <source src="multimedia/audios/This_Is_For_Everyone.mp3" type="audio/mpeg">
+        </audio>
+        <p>
+            Sir Timothy John Berners-Lee es un científico de la computación conocido por ser considerado el inventor de de
+            la World Wide Web. Actualmente es el director del World Wide Web Consortium (W3C).
+        </p>
 
-    <picture>
-        <source media="(min-width:1000px)" srcset="multimedia/images/tim_portrait.jpg">
-        <source media="(min-width:300px)" srcset="multimedia/images/tim_small.jpg">
-        <img src="multimedia/images/tim_portrait.jpg" alt="Foto retrato de Berners-Lee" />
-    </picture>
-    <audio controls>
-        <source src="multimedia/audios/This_Is_For_Everyone.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <p>
-        Sir Timothy John Berners-Lee es un científico de la computación conocido por ser considerado el inventor de de
-        la World Wide Web. Actualmente es el director del World Wide Web Consortium (W3C).
-    </p>
+        <h2>Proyectos actuales</h2>
+        <h3>Solid</h3>
+        <img src="multimedia/images/solid_logo.png" alt="Logo del proyecto Solid" />
+        <p>
+            Solid es uno de los proyectos actuales de Berners-Lee. Trata sobre la descentralización de la web,
+            con el objetivo de lograr sistemas que "pertenezcan" más a los usuarios y con ello además mejorar la provacidad
+            de la web.
+        </p>
+        <p>
+            El proyecto comenzó en 1989, como solución a problemas existentes en la web para el W3C. Problemas tales como el
+            abuso de los datos por las empresas dueñas de los sitemas que almacenan dichos datos.
+        </p>
+        <p>
+            Recientemente, en cierta asignatura del grado de Ingeniería Informática de Oviedo esta tecnología fué utilizada
+            como base para unas prácticas de laboratorio.
+        </p>
 
-    <h2>Proyectos actuales</h2>
-    <h3>Solid</h3>
-    <img src="multimedia/images/solid_logo.png" alt="Logo del proyecto Solid" />
-    <p>
-        Solid es uno de los proyectos actuales de Berners-Lee. Trata sobre la descentralización de la web,
-        con el objetivo de lograr sistemas que "pertenezcan" más a los usuarios y con ello además mejorar la provacidad
-        de la web.
-    </p>
-    <p>
-        El proyecto comenzó en 1989, como solución a problemas existentes en la web para el W3C. Problemas tales como el
-        abuso de los datos por las empresas dueñas de los sitemas que almacenan dichos datos.
-    </p>
-    <p>
-        Recientemente, en cierta asignatura del grado de Ingeniería Informática de Oviedo esta tecnología fué utilizada
-        como base para unas prácticas de laboratorio.
-    </p>
+        <h3>Web Semántica</h3>
+        <p>
+            La Web Semántica es una extensión de la World Wide Web cuyo objetivo es hacer que Internet sea legible por
+            máquinas. Para este fin, se utilizan tecnologías como Resource Description Framework (RDF) o Web Ontology
+            Language (OWL).
+        </p>
+        <p>
+            Mediante las tecnologías utilizadas en el proyecto, se quiere lograr la formalización de metadatos, como por
+            ejemplo categorías de cosas, relaciones entre entidades o conceptos. Esta formalización provee grandes
+            beneficios frente al estado actual de la web, que es muy heterogéneo.
+        </p>
 
-    <h3>Web Semántica</h3>
-    <p>
-        La Web Semántica es una extensión de la World Wide Web cuyo objetivo es hacer que Internet sea legible por
-        máquinas. Para este fin, se utilizan tecnologías como Resource Description Framework (RDF) o Web Ontology
-        Language (OWL).
-    </p>
-    <p>
-        Mediante las tecnologías utilizadas en el proyecto, se quiere lograr la formalización de metadatos, como por
-        ejemplo categorías de cosas, relaciones entre entidades o conceptos. Esta formalización provee grandes
-        beneficios frente al estado actual de la web, que es muy heterogéneo.
-    </p>
-
-    <h3>World Wide Web foundation</h3>
-    <video title="Video publicitario de la World Wide Web foundation" controls>
-        <source src="multimedia/videos/webfoundation.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+        <h3>World Wide Web foundation</h3>
+        <video title="Video publicitario de la World Wide Web foundation" controls>
+            <source src="multimedia/videos/webfoundation.mp4" type="video/mp4">
+        </video>
+    </main>
     <footer>
         <img src="multimedia/images/html5_valid.png" alt="Documento HTML5 validado" />
+        <img src="multimedia/images/css_valid.png" alt="Documentos CSS validados" />
     </footer>
 </body>
 
