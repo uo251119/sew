@@ -19,7 +19,8 @@ p {
 /* 0 0 1 */
 
 nav {
-    display: flex;
+    display: grid;
+    max-width: fit-content;
 }
 
 /* 0 0 2 */
