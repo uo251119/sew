@@ -1,0 +1,32 @@
+/* Datos personales Jaime Fernández Martínez UO251119 */
+header {
+    background-color: orangered;
+}
+
+footer {
+    background-color: palegreen;
+}
+
+section {
+    background-color: palevioletred;
+}
+
+article {
+    background-color: palegoldenrod;
+}
+
+aside {
+    background-color: paleturquoise;
+}
+
+ul {
+    display: list-item;
+}
+
+nav {
+    margin: 2em;
+    padding: 1em;
+    border: peru;
+    border-style: dashed;
+    border-radius: 1em;
+}

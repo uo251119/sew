@@ -8,47 +8,68 @@
     <meta name="description" content="DESCRIPCIÓN ESPECÍFICA DEL DOCUMENTO">
     <meta name="keywords" content="KEYWORDS DEL DOCUMENTO">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link rel="stylesheet" href="estilo/layout.css">
     <title>Framework Angular</title>
 </head>
 
 <body>
-    <h1>Framework Angular</h1>
-    <p>
-        Un framework para aplicaciones web.
-    </p>
+    <header>
+        <h1>Framework Angular</h1>
+        <p>
+            Un framework para aplicaciones web.
+        </p>
+    </header>
 
     <nav>
         <a href="index.html" accesskey="D" tabindex="1">Descripción general</a>
         <a href="informacion_general.html" accesskey="I" tabindex="2">Información general</a>
         <a href="versiones.html" accesskey="V" tabindex="3">Versiones</a>
-        <a href="opiniones.html" accesskey="C" tabindex="4">Cuestionario de opinión</a>  
+        <a href="opiniones.html" accesskey="C" tabindex="4">Cuestionario de opinión</a>
     </nav>
-    
-    <h2>Formulario de opinión acerca de esta web</h2>
-    <form>
-        <fieldset>
-            <legend>Comprobación previa</legend>
-            <p><label for="checkRead"> Confirmo que he visitado este sitio web </label><input id="checkRead" type="checkbox"></p>
-        </fieldset>
-        <fieldset>
-            <legend>¿Cuánto te ha gustado el sitio web?</legend>
-            <p><label for="likeMucho"> Mucho </label><input id="likeMucho" type="radio" name="like"></p>
-            <p><label for="likePoco"> Poco </label><input id="likePoco" type="radio" name="like"></p>
-            <p><label for="likeNada"> Nada </label><input id="likeNada" type="radio" name="like"></p>
-        </fieldset>
 
-        <p><label>¿Cuánto te ha gustado el sitio web?: <input type="range"></label></p>
-        
-        <p><label>Color: <input type="color"></label></p>
+    <main>
+        <section>
+            <h2>Opiniones</h2>
+            <p>
+                Es muy importante para poder manterner esta web de la mejor forma que los usuarios nos den
+                retroalimentación de su experiencia. Por favor, rellene el cuestionario de esta página.
+            </p>
+        </section>
+        <section>
+            <h2>Formulario de opinión acerca de esta web</h2>
+            <form>
+                <fieldset>
+                    <legend>Comprobación previa</legend>
+                    <p><label for="checkRead"> Confirmo que he visitado este sitio web </label><input id="checkRead"
+                            type="checkbox"></p>
+                </fieldset>
+                <fieldset>
+                    <legend>¿Cuánto te ha gustado el sitio web?</legend>
+                    <p><label for="likeMucho"> Mucho </label><input id="likeMucho" type="radio" name="like"></p>
+                    <p><label for="likePoco"> Poco </label><input id="likePoco" type="radio" name="like"></p>
+                    <p><label for="likeNada"> Nada </label><input id="likeNada" type="radio" name="like"></p>
+                </fieldset>
 
-        <p><label>Fecha: <input type="datetime-local"></label></p>
+                <p><label>¿Cuánto te ha gustado el sitio web?: <input type="range"></label></p>
 
-        <p><label>Nombre: <input type="text"></label></p>
+                <p><label>Color: <input type="color"></label></p>
 
-        <p><label>Email: <input type="email"></label></p>
-        
-        <p><input type="submit" value="Enviar" ></p>
-    </form>
+                <p><label>Fecha: <input type="datetime-local"></label></p>
+
+                <p><label>Nombre: <input type="text"></label></p>
+
+                <p><label>Email: <input type="email"></label></p>
+
+                <p><input type="submit" value="Enviar"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Jaime Fernández Martínez - UO251119 - Uniovi 2022-2023</p>
+        <a href="index.html">Página principal</a>
+    </footer>
 </body>
 
 </html>
