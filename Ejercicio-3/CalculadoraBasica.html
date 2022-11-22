@@ -10,7 +10,8 @@
 
 <body>
     <h1>Calculadora Básica</h1>
-    <main class="calculator">
+    <div class="calculator">
+        <label for="display" hidden>Pantalla</label>
         <input type="text" id="display" disabled>
         <div class="buttons">
             <input type="button" onclick="calculator.clear()" value="C" class="greyButton" accesskey="c">
@@ -43,7 +44,7 @@
             <!-- parte de abajo del '+' -->
             <input type="button" onclick="calculator.memPlus()" value="M+" class="greyButton" accesskey="m">
         </div>
-    </main>
+    </div>
 
     <script src="CalculadoraBasica.js"></script>
 </body>
