@@ -1,0 +1,52 @@
+html{
+    background-color: #313850;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    padding: 1em;
+    background-color: #252C40;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    padding: 1em;
+    background-color: #141823;
+    border-radius: 0.5em;
+}
+
+h3 {
+    padding: 1em;
+    background-color: #11131C;
+    border-radius: 0.5em;
+}
+
+h4 {
+    padding: 1em;
+    background-color: #0D0F15;
+    border-radius: 0.5em;
+}
+
+h5 {
+    padding: 1em;
+    background-color: #08090D;
+    border-radius: 0.5em;
+}
+
+p {
+    background-color: #1E1E20;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 1em;
+}
+
+section {
+    background-color: #192035;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.2em;
+}

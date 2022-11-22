@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CalculadoraCientifica.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculadora Científica</h1>
+    <div class="calculator">
+        <input type="text" id="display" disabled>
+        <div class="functionButtons">
+            <input type="button" onclick="calculator.altOn()" value="alt" class="altButtonOff altOff">
+            <input type="button" onclick="calculator.altOff()" value="alt" class="altButtonOn altOn">
+            <input type="button" onclick="calculator.symbol('(')" value="(" class="blueButton">
+            <input type="button" onclick="calculator.symbol(')')" value=")" class="blueButton">
+            <input type="button" onclick="calculator.logarithm()" value="log" class="blueButton altOff">
+            <input type="button" onclick="calculator.tenToX()" value="10^x" class="blueButtonAlt altOn">
+            <input type="button" onclick="calculator.naturalLogarithm()" value="ln" class="blueButton altOff">
+            <input type="button" onclick="calculator.eToX()" value="e^x" class="blueButtonAlt altOn">
+            <input type="button" onclick="calculator.pi()" value="π" class="blueButton altOff">
+            <input type="button" onclick="calculator.e()" value="e" class="blueButtonAlt altOn">
+
+            <input type="button" onclick="calculator.random()" value="rand" class="blueButton">
+            <input type="button" onclick="calculator.invert()" value="1/x" class="blueButton">
+            <input type="button" onclick="calculator.factorial()" value="x!" class="blueButton">
+            <input type="button" onclick="calculator.sine()" value="sin" class="blueButton altOff">
+            <input type="button" onclick="calculator.arcsine()" value="arsin" class="blueButtonAlt altOn">
+            <input type="button" onclick="calculator.cosine()" value="cos" class="blueButton altOff">
+            <input type="button" onclick="calculator.arccosine()" value="arcos" class="blueButtonAlt altOn">
+            <input type="button" onclick="calculator.tangent()" value="tan" class="blueButton altOff">
+            <input type="button" onclick="calculator.arctangent()" value="artan" class="blueButtonAlt altOn">
+
+            <input type="button" onclick="calculator.invertSign()" value="+/-" class="blueButton">
+            <input type="button" onclick="calculator.squareRoot()" value="sqrt" class="blueButton altOff">
+            <input type="button" onclick="calculator.square()" value="x^2" class="blueButtonAlt altOn">
+            <input type="button" onclick="calculator.cubeRoot()" value="cbrt" class="blueButton altOff">
+            <input type="button" onclick="calculator.cube()" value="x^3" class="blueButtonAlt altOn">
+            <input type="button" onclick="calculator.memIn()" value="M in" class="blueButton">
+            <input type="button" onclick="calculator.memOut()" value="M out" class="blueButton">
+            <input type="button" onclick="calculator.memRecovery()" value="MR" class="blueButton">
+        </div>
+        <div class="basicButtons">
+            <input type="button" onclick="calculator.number(7)" value="7" class="whiteButton">
+            <input type="button" onclick="calculator.number(8)" value="8" class="whiteButton">
+            <input type="button" onclick="calculator.number(9)" value="9" class="whiteButton">
+            <input type="button" onclick="calculator.delete()" value="C" class="redButton">
+            <input type="button" onclick="calculator.clear()" value="AC" class="redButton">
+
+            <input type="button" onclick="calculator.number(4)" value="4" class="whiteButton">
+            <input type="button" onclick="calculator.number(5)" value="5" class="whiteButton">
+            <input type="button" onclick="calculator.number(6)" value="6" class="whiteButton">
+            <input type="button" onclick="calculator.multiplication()" value="*" class="greyButton">
+            <input type="button" onclick="calculator.division()" value="/" class="greyButton">
+
+            <input type="button" onclick="calculator.number(1)" value="1" class="whiteButton">
+            <input type="button" onclick="calculator.number(2)" value="2" class="whiteButton">
+            <input type="button" onclick="calculator.number(3)" value="3" class="whiteButton">
+            <input type="button" onclick="calculator.addition()" value="+" class="greyButton">
+            <input type="button" onclick="calculator.subtraction()" value="-" class="greyButton">
+
+            <input type="button" onclick="calculator.number(0)" value="0" class="whiteButton">
+            <input type="button" onclick="calculator.period()" value="." class="whiteButton">
+            <input type="button" onclick="calculator.exp()" value="exp" class="greyButton">
+            <input type="button" onclick="calculator.equals()" value="=" class="greyButton">
+            <input type="button" onclick="calculator.memPlus()" value="M+" class="greyButton altOff">
+            <input type="button" onclick="calculator.memMinus()" value="M-" class="greyButtonAlt altOn">
+        </div>
+    </div>
+
+    <script src="CalculadoraBasica.js"></script>
+    <script src="CalculadoraCientifica.js"></script>
+</body>
+
+</html>

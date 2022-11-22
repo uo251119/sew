@@ -1,0 +1,164 @@
+html{
+    background-color: #313850;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    padding: 1em;
+    background-color: #252C40;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+.calculator {
+    background-color: #1F2332;
+    width: 27em;
+    padding: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+
+[type=text]{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: #EBEEFA;
+    background-color: #222222;
+    padding: 5px;
+    margin: 0.6em 0.2em;
+    text-align: right;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 800;
+    color: #EBEEFA;
+}
+
+.stackDisplay {
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: #EBEEFA;
+    background-color: #222222;
+    padding: 5px;
+    margin: 0.6em 0.2em;
+    text-align: right;
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: 800;
+    color: #EBEEFA;
+    
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.lineNumber {
+    text-align: left;
+    color: #FFC577;
+}
+
+.stackLine {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    text-align: right;
+    overflow: hidden;
+    width: auto;
+}
+
+.functionButtons {
+    background-color: #23262D;
+    margin: 0.2em;
+    padding: 0.2em;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 16.7% 16.7% 16.7% 16.7% 16.7% 16.7%;
+}
+
+.basicButtons {
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+[type = button] {
+    padding: 8px 0;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    background-color: #222222;
+    color: #EBEEFA;
+    margin: 5px;
+    font-size: large;
+    font-family: inherit;
+    font-weight: 800;
+}
+
+[type = button]:active {
+    background-color: #EBEEFA;
+    color: #222222;
+}
+
+.altButtonOff {
+    border-color: #FFC577;
+    color: #FFC577;
+    background-color: #222222;
+}
+
+.altButtonOn {
+    border-color: #FFC577;
+    color: #222222;
+    background-color: #FFC577;
+}
+
+.alterableButton {
+    border-color: #77A7FF;
+    color: #FFC577;
+}
+
+.greyButton {
+    border-color: #AFAFAF;
+    color: #AFAFAF;
+}
+
+.greyButtonAlt {
+    border-color: #AFAFAF;
+    color: #FFC577;
+}
+
+.blueButton {
+    border-color: #77A7FF;
+    color: #77A7FF;
+}
+
+.blueButtonAlt {
+    border-color: #77A7FF;
+    color: #FFC577;
+}
+
+.redButton {
+    border-color: #FF4B4B;
+    color: #FF4B4B;
+}
+
+.whiteButton {
+    border-color: #E0E0E0;
+    color: #E0E0E0;
+}
+
+.stackButton {
+    border-color: #77A7FF;
+}
