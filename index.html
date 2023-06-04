@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coaña - Página principal</title>
+
+  <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+  <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+  <link rel="stylesheet" type="text/css" href="estilo/carousel.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Página Principal</a>
+        </li>
+        <li>
+          <a href="gastronomia.html">Gastronomía</a>
+        </li>
+        <li>
+          <a href="rutas.html">Rutas</a>
+        </li>
+        <li>
+          <a href="meteorologia.html">Meteorología</a>
+        </li>
+        <li>
+          <a href="juego.html">Juego</a>
+        </li>
+        <li>
+          <a href="./php/registro.php">Reservas</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Carrusel -->
+    <div>
+      <div>
+        <h2>Castro de Coaña</h2>
+        <img src="multimedia/fondo-4.jpg" alt="Faro frente al mar">
+      </div>
+
+      <div>
+        <h2>Castro de Mohias</h2>
+        <img src="multimedia/fondo-5.jpg" alt="Ruinas de antiguas construcciones">
+      </div>
+
+      <div>
+        <h2>Coaña</h2>
+        <img src="multimedia/fondo-6.jpg" alt="Pueblo costero">
+      </div>
+
+      <div>
+        <h2>Ortiguera</h2>
+        <img src="multimedia/fondo-7.jpeg" alt="Pequeña playa de un pueblo costero">
+      </div>
+
+      <div>
+        <h2>Castro de Coaña</h2>
+        <img src="multimedia/fondo-3.jpg" alt="Atardecer en la costa, frente a zona boscosa">
+      </div>
+    </div>
+
+    <div>
+      <a onclick="carrusel.plusSlides(-1)">&larr;</a>
+      <a onclick="carrusel.plusSlides(1)">&rarr;</a>
+    </div>
+  </header>
+
+  <main>
+    <h1>Página principal</h1>
+
+    <section>
+      <h2>El tiempo en coaña ahora</h2>
+      <div id="meteoData"></div>
+    </section>
+
+    <section>
+      <h2>Situación del Concejo de Coaña</h2>
+      <div id="mapaCoaña"></div>
+    </section>
+
+    <section>
+      <h2>Noticias recientes acerca de Coaña</h2>
+      <div id="noticiaCoaña"></div>
+    </section>
+
+    <section>
+      <h2>Fecha y hora de la última actualización</h2>
+      <div id="fechaDiaActual"></div>
+      <div id="reloj"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Uniovi - Software y Estándares para la Web 2022-2023</p>
+  </footer>
+
+  <script src="js/carrusel.js"></script>
+  <script src="js/fecha.js"></script>
+  <script src="js/meteo.js"></script>
+  <script src="js/mapa.js"></script>
+  <script src="js/noticias.js"></script>
+</body>
+
+</html>

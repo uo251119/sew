@@ -1,0 +1,89 @@
+[
+    {
+        "pregunta": "¿La imagen presentada, a qué sitio turístico pertenece?",
+        "respuesta": "Castro de Coaña",
+        "incorrecta1": "Castro de Mohias",
+        "incorrecta2": "Ortiguera",
+        "incorrecta3": "Coaña",
+        "incorrecta4": "Situación Coaña",
+        "imagen": "./multimedia/Castro_de_Coaña.jpg",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿De dónde es el siguiente escudo?",
+        "respuesta": "Coaña",
+        "incorrecta1": "Oviedo",
+        "incorrecta2": "Siero",
+        "incorrecta3": "Mieres",
+        "incorrecta4": "Lena",
+        "imagen": "./multimedia/Escudo_de_Coaña.svg.png",
+        "objectFit": "cover"
+    },
+    {
+        "pregunta": "¿Cuántas opciones tiene el menú de la página?",
+        "respuesta": "6",
+        "incorrecta1": "5",
+        "incorrecta2": "4",
+        "incorrecta3": "3",
+        "incorrecta4": "2"
+    },
+    {
+        "pregunta": "¿Cómo se llama el siguiente mapa?",
+        "respuesta": "Mapa de situación de Coaña",
+        "incorrecta1": "Mapa de Coaña",
+        "incorrecta2": "Mapa de dirección",
+        "incorrecta3": "Mapa de sitios turísticos",
+        "incorrecta4": "GPS",
+        "imagen": "./multimedia/Situacion_Coana.jpg"
+    },
+    {
+        "pregunta": "En combinación de productos, se puede degustar en un solo plato...",
+        "respuesta": "Empanada de berberechos",
+        "incorrecta1": "Ternera asturiana",
+        "incorrecta2": "Lubinas",
+        "incorrecta3": "Sargos",
+        "incorrecta4": "Merluzas"
+    },
+    {
+        "pregunta": "¿Cúal es un postre típico de Coaña?",
+        "respuesta": "Queso de Abredo",
+        "incorrecta1": "Empanada de berberechos",
+        "incorrecta2": "Fabas con almejas",
+        "incorrecta3": "Merluza con patatinas",
+        "incorrecta4": "Sargos"
+    },
+    {
+        "pregunta": "¿Qué se come en la zona interior de Coaña?",
+        "respuesta": "Ternera asturiana, Caza y Pollo de aldea",
+        "incorrecta1": "Fabas con almejas",
+        "incorrecta2": "Merluzas",
+        "incorrecta3": "Pescado",
+        "incorrecta4": "Mariscos"
+    },
+    {
+        "pregunta": "Combinación de productos en un solo plato",
+        "respuesta": "Fabas con almejas",
+        "incorrecta1": "Arroz con leche",
+        "incorrecta2": "Pescado",
+        "incorrecta3": "Ternera",
+        "incorrecta4": "Pollo de aldea",
+        "imagen": "./multimedia/comida1.jpg"
+    },
+    {
+        "pregunta": "¿Qué sitio se representa en la imagen?",
+        "respuesta": "Ortiguera",
+        "incorrecta1": "Castro de Mohias",
+        "incorrecta2": "Oviedo",
+        "incorrecta3": "Laviana",
+        "incorrecta4": "Llanera",
+        "imagen": "./multimedia/Ortiguera.jpg"
+    },
+    {
+        "pregunta": "Para ingresar a la opción de reservar un recurso turístico, ¿qué datos se necesitan?",
+        "respuesta": "Usuario y Clave",
+        "incorrecta1": "Email",
+        "incorrecta2": "Teléfono ",
+        "incorrecta3": "Ciudad",
+        "incorrecta4": "Hijos"
+    }
+]

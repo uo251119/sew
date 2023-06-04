@@ -1,0 +1,137 @@
+html {
+    background: cadetblue;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+}
+
+header {
+    background: rgb(200, 235, 235);
+    padding: 0.5em;
+    margin: 1em;
+}
+
+footer {
+    text-align: center;
+    background: rgb(200, 235, 235);
+    color: #232121;
+    padding: 1em;
+    margin: 1em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 1em;
+}
+
+nav li a {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: #232121;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #232121;
+    color: rgb(219, 219, 219);
+    text-decoration: none;
+}
+
+dl dt {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    background: rgb(200, 235, 235);
+    max-width: 50em;
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 0.5em;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: aliceblue;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 0.3rem;
+    background-color: aliceblue;
+}
+
+th {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: left;
+    background-color: rgb(56, 94, 95);
+    color: white;
+}
+
+table caption {
+    font-style: oblique;
+}
+
+main section div {
+    padding: 1em;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+
+section img {
+    max-width: 60%;
+    margin: 1em;
+
+    border-style: outset;
+}
+
+section video {
+    max-width: 60%;
+
+    margin: 1em;
+}
+
+main section div img {
+    background-color: #c3bfbf;
+    border-radius: 0.5em;
+}
+
+button {
+    background-color: aliceblue;
+    color: black;
+
+    font-size: large;
+    border: none;
+
+    margin: 0.5rem;
+    padding: 0.25rem;
+}
+
+button:hover {
+    background-color: black;
+    color: aliceblue;
+
+    cursor: pointer;
+}
+
+form {
+    background-color: white;
+    margin: 1em;
+    padding: 1em;
+
+    border-radius: 1em;
+}

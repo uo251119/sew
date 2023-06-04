@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastronomía de coaña</title>
+
+  <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+  <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Página Principal</a>
+        </li>
+        <li>
+          <a href="gastronomia.html">Gastronomía</a>
+        </li>
+        <li>
+          <a href="rutas.html">Rutas</a>
+        </li>
+        <li>
+          <a href="meteorologia.html">Meteorología</a>
+        </li>
+        <li>
+          <a href="juego.html">Juego</a>
+        </li>
+        <li>
+          <a href="./php/registro.php">Reservas</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Gastronomía</h1>
+    <section>
+      <h2>Alimentos más populares de coaña</h2>
+      <ol>
+        <li>Pescados (sargos, merluzas, lubinas,..)</li>
+        <li>Mariscos procedentes del agitado Mar Cantábrico</li>
+        <li>Carnes como la ternera asturiana, caza, pollo de aldea o "pitu de caleya"</li>
+      </ol>
+
+      <h2>Platos más típicos</h2>
+      <ol>
+        <li>Fabas con almejas</li>
+        <li>Empanada de berberechos</li>
+        <li>Fabas con jabalí</li>
+        <li>Merluza con patatinas</li>
+      </ol>
+    </section>
+    <section>
+      <h2>Postres</h2>
+      <dl>
+        <dt>Queso de Abredo</dt>
+        <dd>Se elabora en la quesería artesanal del pueblo de Abredo,
+          el cuál goza de gran prestigio en todo el occidente</dd>
+        <dt>Arroz con leche</dt>
+        <dd>Se elabora con arroz bien cocido en leche, se le agrega canela y azúcar</dd>
+      </dl>
+    </section>
+    <section>
+      <h2>Coaña es un municipio de mar y montaña</h2>
+      <ul>
+        <li>En la zona costera destacan los pescados como:
+          <ul>
+            <li>Sargos</li>
+            <li>Merluzas</li>
+            <li>Lubinas</li>
+          </ul>
+        </li>
+        <li>En la zona interior se come carnes como:
+          <ul>
+            <li>Ternera asturiana</li>
+            <li>Caza</li>
+            <li>Pollo de aldea</li>
+          </ul>
+        </li>
+        <li>Se puede degustar en un solo plato:
+          <ul>
+            <li>Fabas con almejas</li>
+            <li>Empanada de berberechos</li>
+            <li>Fabas con jabalí</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>¿Dónde comer?</h2>
+      <table>
+        <caption>Algunos restaurantes de interés para probar comida local.</caption>
+        <tr>
+          <th>Restaurante</th>
+          <th>Dirección</th>
+          <th>Teléfono</th>
+        </tr>
+        <tr>
+          <td>Casa de Comidas A Retoral</td>
+          <td>FC/ Real, s/n</td>
+          <td>985 63 18 24 - 691 68 52 58</td>
+        </tr>
+        <tr>
+          <td>El Capricho de Gonzalo</td>
+          <td>Ctra. CÑ-6 km. 3.400</td>
+          <td>985 47 36 43</td>
+        </tr>
+        <tr>
+          <td>Bar Las Viñas</td>
+          <td>Trelles, s/n</td>
+          <td>985 47 39 71</td>
+        </tr>
+        <tr>
+          <td>Hotel-Restaurante Mayce</td>
+          <td>Ctra. N-634</td>
+          <td>985 47 80 26 - 985 47 83 68</td>
+        </tr>
+      </table>
+    </section>
+    <section>
+      <h2>Algunas imágenes de alimentos típicos de Coaña.</h2>
+      <picture>
+        <source media="(max-width: 799px)" srcset="./multimedia/comida1.jpg">
+        <source media="(min-width: 800px)" srcset="./multimedia/comida1.jpg">
+        <img src="./multimedia/comida1.jpg" alt="Comida de Coaña">
+      </picture>
+      <picture>
+        <source media="(max-width: 799px)" srcset="./multimedia/comida2.jpg">
+        <source media="(min-width: 800px)" srcset="./multimedia/comida2.jpg">
+        <img src="./multimedia/comida2.jpg" alt="Comida de Coaña">
+      </picture>
+    </section>
+    <br>
+    <div>
+      <video controls>
+        <source src="./multimedia/gastronomia.mp4" type="video/mp4">
+      </video>
+    </div>
+    <br>
+    <div>
+      <audio controls>
+        <source src="./multimedia/audio.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+  </main>
+
+  <footer>
+    <p>Uniovi - Software y Estándares para la Web 2022-2023</p>
+  </footer>
+</body>
+
+</html>

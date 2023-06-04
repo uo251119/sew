@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+<rutas>
+    <ruta>
+        <nombre>Ruta Castro de Coaña</nombre>
+        <tipo>Arquitectura y monumentos</tipo>
+        <medioTransporte>A pie</medioTransporte>
+        <fechaInicio>05-05-2023</fechaInicio>
+        <horaInicio>08:00</horaInicio>
+        <duracion>4 horas</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Nuestros antepasados dejaron en estas tierras y las vecinas numerosas huellas
+            de su existencia; el número de castros, o poblados fortificados de la Edad de Hierro, es
+            muy elevado, aunque pocos han sido excavados. De entre todos posiblemente el más
+            conocido y de mayor tamaño es el Castro de Coaña, también conocido como el Castillón de
+            Villacondide o Castelón de Coaña, que fue el primero en ser estudiado.</descripcion>
+        <personasAdecuadas>Se puede ir con niños</personasAdecuadas>
+        <lugarInicio>Instalaciones culturales de Coaña</lugarInicio>
+        <direccionInicio>Coaña</direccionInicio>
+        <coordenadas>
+            <latitud>39.4605</latitud>
+            <longitud>-3.60672</longitud>
+            <altitud>1000</altitud>
+        </coordenadas>
+        <recomendacion>9</recomendacion>
+        <referencias>
+            <referencia>
+                https://es.wikiloc.com/rutas-senderismo/castro-de-coana-villacondide-porto-castro-de-coana-87479821</referencia>
+            <referencia>https://www.castrosdeasturias.es/castros/46/15/el-castro-de-coaa</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Castro_de_Coaña</referencia>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre>Villacondide al amanecer</nombre>
+                <descripcion>Excelentes vistas del amanecer</descripcion>
+                <coordenadas>
+                    <latitud>39.4605</latitud>
+                    <longitud>-3.60680</longitud>
+                    <altitud>1000</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior
+                    unidades="m">500</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>villacondide_al_amanecer.jpg</fotografia>
+                    <fotografia>comida2.jpg</fotografia>
+                </fotografias>
+                <videos>
+                    <video>gastronomia.mp4</video>
+                </videos>
+            </hito>
+            <hito>
+                <nombre>Río Navia</nombre>
+                <descripcion>Vistas al río Navia</descripcion>
+                <coordenadas>
+                    <latitud>39.4604</latitud>
+                    <longitud>-3.60686</longitud>
+                    <altitud>1500</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="m">600</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>rio_navia.jpg</fotografia>
+                </fotografias>
+            </hito>
+            <hito>
+                <nombre>Castro de coaña</nombre>
+                <descripcion>El Castro de Coaña estuvo ocupado desde aproximadamente el siglo V
+                    hasta después de la conquista romana, cuando se alteró significativamente la
+                    aquitectura urbana del lugar.</descripcion>
+                <coordenadas>
+                    <latitud>39.4603</latitud>
+                    <longitud>-3.6090</longitud>
+                    <altitud>1300</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="m">300</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>Castro_de_Coaña.JPG</fotografia>
+                </fotografias>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta>
+        <nombre>Cordal de Coaña (Circular)</nombre>
+        <tipo>Senderismo</tipo>
+        <medioTransporte>A pie o bicicleta</medioTransporte>
+        <fechaInicio>15-05-2023</fechaInicio>
+        <horaInicio>12:00</horaInicio>
+        <duracion>4 horas</duracion>
+        <agencia>NaturAller</agencia>
+        <descripcion>Recorrido que transcurre en su mayor parte por asfalto (la subida es
+            prácticamente toda por asfalto y también los últimos kilómetros). La parte que no es de
+            asfalto discurre por una pista amplia y perfectamente desbrozada. La señalización del
+            tramo que es oficial (WP11 hasta el final) es algo corta, falta en algunos cruces por lo
+            que habrá que ir atentos al mapa o GPS. Estupendas vistas de la Costa Naviega y de las
+            vegas y montañas de Coaña. Para iniciar el recorrido salimos del aparcamiento del Castro
+            de Coaña (no lo pudimos visitar por estar ese día cerrado) para virando a la izquierda
+            tomar el primer desvío a la derecha. Nuestro objetivo es llegar al Mirador de
+            Bustabernego (11). En este punto, como ya queda dicho, comienza la Ruta del Cordal de
+            Coaña. Desde aquí, algo mas de 5,5 kilómetros de subida, no muy pronunciada, y luego
+            descenso has llegar al final del recorrido</descripcion>
+        <personasAdecuadas>Cualquier persona</personasAdecuadas>
+        <lugarInicio>Villacondide</lugarInicio>
+        <direccionInicio>Vilalcondide centro cultural</direccionInicio>
+        <coordenadas>
+            <latitud>37.101166</latitud>
+            <longitud>-3.60672</longitud>
+            <altitud>2000</altitud>
+        </coordenadas>
+        <recomendacion>8</recomendacion>
+        <referencias>
+            <referencia>https://es.wikiloc.com/rutas-senderismo/cordal-de-coana-circular-29043204</referencia>
+            <referencia>https://www.villacondide.com</referencia>
+            <referencia>https://es.wikipedia.org/wiki/Villacondide</referencia>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre>Depósito de agua</nombre>
+                <descripcion>Inicio de la ruta</descripcion>
+                <coordenadas>
+                    <latitud>37.101165</latitud>
+                    <longitud>-3.240442</longitud>
+                    <altitud>2050</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="m">2000</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>deposito_agua.jpg</fotografia>
+                </fotografias>
+            </hito>
+            <hito>
+                <nombre>Área recreativa de san Luis</nombre>
+                <descripcion>Pa descansar</descripcion>
+                <coordenadas>
+                    <latitud>37.101163</latitud>
+                    <longitud>-3.240443</longitud>
+                    <altitud>1700</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="km">50</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>area_recreativa_san_luis.jpg</fotografia>
+                </fotografias>
+            </hito>
+            <hito>
+                <nombre>Cima</nombre>
+                <descripcion>Final de la ruta</descripcion>
+                <coordenadas>
+                    <latitud>37.101111</latitud>
+                    <longitud>-3.247444</longitud>
+                    <altitud>4200</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="m">10</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>cima.jpg</fotografia>
+                </fotografias>
+            </hito>
+        </hitos>
+    </ruta>
+
+    <ruta>
+        <nombre>Coaña-Estilleiro-Chao de Villacondide-Castro-Coaña</nombre>
+        <tipo>Senderismo</tipo>
+        <medioTransporte>A pie</medioTransporte>
+        <fechaInicio>01-06-2023</fechaInicio>
+        <horaInicio>09:00</horaInicio>
+        <duracion>3 horas</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Familiar y amigos</descripcion>
+        <personasAdecuadas>Se puede ir con niños</personasAdecuadas>
+        <lugarInicio>Coaña</lugarInicio>
+        <direccionInicio>Estilleiro</direccionInicio>
+        <coordenadas>
+            <latitud>37.201111</latitud>
+            <longitud>-3.347444</longitud>
+            <altitud>200</altitud>
+        </coordenadas>
+        <recomendacion>7</recomendacion>
+        <referencias>
+            <referencia>
+                https://es.wikiloc.com/rutas-senderismo/coana-estilleiro-chao-de-villacondide-castro-coana-11251092</referencia>
+            <referencia>https://www.pueblosasturias.es/asturias/c/0/i/43828369/el-estilleiro</referencia>
+            <referencia>
+                https://www.vivirasturias.com/entidades-poblacion/c/0/i/54867724/el-estilleiro</referencia>
+        </referencias>
+        <hitos>
+            <hito>
+                <nombre>Estilleiro</nombre>
+                <descripcion>Disfrute de la vista</descripcion>
+                <coordenadas>
+                    <latitud>39.4305</latitud>
+                    <longitud>-3.30680</longitud>
+                    <altitud>200</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="m">110</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>Embalse1.jpg</fotografia>
+                </fotografias>
+            </hito>
+            <hito>
+                <nombre>Castro de Coaña</nombre>
+                <descripcion>Disfrute de la vista del increíble castro de Coaña.</descripcion>
+                <coordenadas>
+                    <latitud>39.4704</latitud>
+                    <longitud>-3.50486</longitud>
+                    <altitud>500</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="m">300</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>castro_de_coana01.jpg</fotografia>
+                </fotografias>
+            </hito>
+            <hito>
+                <nombre>Iglesia de Coaña</nombre>
+                <descripcion>Disfrute del relajante sonido del agua</descripcion>
+                <coordenadas>
+                    <latitud>39.4653</latitud>
+                    <longitud>-3.2490</longitud>
+                    <altitud>700</altitud>
+                </coordenadas>
+                <distanciaHitoAnterior unidades="m">500</distanciaHitoAnterior>
+                <fotografias>
+                    <fotografia>Embalse2.jpg</fotografia>
+                </fotografias>
+            </hito>
+        </hitos>
+    </ruta>
+</rutas>

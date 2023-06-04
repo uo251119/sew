@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de preguntas Coaña</title>
+  <link rel="stylesheet" type="text/css" href="./estilo/estilo.css">
+  <link rel="stylesheet" type="text/css" href="./estilo/layout.css">
+</head>
+
+<body>
+  <!-- Encabezado de la página -->
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="index.html">Página Principal</a>
+        </li>
+        <li>
+          <a href="gastronomia.html">Gastronomía</a>
+        </li>
+        <li>
+          <a href="rutas.html">Rutas</a>
+        </li>
+        <li>
+          <a href="meteorologia.html">Meteorología</a>
+        </li>
+        <li>
+          <a href="juego.html">Juego</a>
+        </li>
+        <li>
+          <a href="./php/registro.php">Reservas</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="juego">
+    <h1>Juego</h1>
+
+    <section id="seccionJuego">
+      <p id="puntuacion"></p>
+
+      <h2 id="pregunta"></h2>
+      <img id="imagen" alt="Imagen de la pregunta">
+      <ol>
+        <li><button type="button" id="btn1" onclick="juego.elegirRespuesta(0)"></button></li>
+        <li><button type="button" id="btn2" onclick="juego.elegirRespuesta(1)"></button></li>
+        <li><button type="button" id="btn3" onclick="juego.elegirRespuesta(2)"></button></li>
+        <li><button type="button" id="btn4" onclick="juego.elegirRespuesta(3)"></button></li>
+        <li><button type="button" id="btn5" onclick="juego.elegirRespuesta(4)"></button></li>
+      </ol>
+    </section>
+
+    <a href="index.html">Volver</a>
+  </main>
+  <script src="js/juego.js"></script>
+
+  <footer>
+    <p>Uniovi - Software y Estándares para la Web 2022-2023</p>
+  </footer>
+</body>
+
+</html>
