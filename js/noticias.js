@@ -1,9 +1,12 @@
 
 class Noticias {
     API_KEY = '1a56190e419846deae0203df131c6bea';
+    date = new Date();
 
     cargarDatos(query) {
-        this.url = 'https://newsapi.org/v2/everything?q=' + query + '&from=2023-04-15&sortBy=publishedAt&apiKey=' + this.API_KEY;
+        this.date.setMonth(this.date.getMonth() - 1);
+
+        this.url = 'https://newsapi.org/v2/everything?q=' + query + '&from=' + this.date + '&sortBy=publishedAt&apiKey=' + this.API_KEY;
         $.ajax({
             dataType: 'json',
             url: this.url,

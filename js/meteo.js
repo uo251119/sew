@@ -6,7 +6,7 @@ class Meteo {
 
     cargarDatos(ciudad) {
         this.ciudad = ciudad;
-        this.url = 'http://api.openweathermap.org/data/2.5/weather?q=' + this.ciudad + this.unidades + this.idioma + '&APPID=' + this.apikey;
+        this.url = 'https://api.openweathermap.org/data/2.5/weather?q=' + this.ciudad + this.unidades + this.idioma + '&APPID=' + this.apikey;
         $.ajax({
             dataType: 'json',
             url: this.url,

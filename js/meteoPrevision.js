@@ -6,7 +6,7 @@ class MeteoPrevision {
     error = '<h2>¡problemas! No puedo obtener información de <a href=\'http://openweathermap.org\'>OpenWeatherMap</a></h2>';
 
     cargarDatos(lat, lon) {
-        this.url = 'http://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&cnt=7&appid=' + this.API_KEY;
+        this.url = 'https://api.openweathermap.org/data/2.5/forecast?lat=' + lat + '&lon=' + lon + '&cnt=7&appid=' + this.API_KEY;
 
         $.ajax({
             dataType: 'json',
