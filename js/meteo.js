@@ -2,7 +2,7 @@ class Meteo {
     apikey = '1bb4c8d6af655f2773fff0b23de4e94e';
     unidades = '&units=metric';
     idioma = '&lang=es';
-    error = '<h2>¡problemas! No puedo obtener información de <a href=\'http://openweathermap.org\'>OpenWeatherMap</a></h2>';
+    error = '<p>¡problemas! No puedo obtener información de <a href=\'http://openweathermap.org\'>OpenWeatherMap</a></p>';
 
     cargarDatos(ciudad) {
         this.ciudad = ciudad;

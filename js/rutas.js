@@ -94,7 +94,7 @@ class Rutas {
                     "<p>" + descripcion + "</p>";
 
                 fotografias.forEach(foto => {
-                    rutaHtmlString += "<img src='multimedia/" + foto.textContent + "'></img>";
+                    rutaHtmlString += "<img src='multimedia/" + foto.textContent + "' alt='Imagen del hito'></img>";
                 });
 
 
