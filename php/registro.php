@@ -25,40 +25,45 @@ if (!empty($_POST)) {
 ?>
 
 <main>
-    <section>
-        <h1>Regístrate</h1>
-        <?php if (!empty($error)) { ?>
-            <p>
-                <?= $error ?>
-            </p>
-        <?php } ?>
-        <form action="registro.php" method="POST">
-            <label for="usuario">Usuario:</label>
-            <input name="usuario" type="text" placeholder="Ingresa tu usuario">
-            <label for="clave">Contraseña:</label>
-            <input name="clave" type="password" placeholder="Ingresa tu clave">
-            <label for="confirm_password">Confirmar contraseña:</label>
-            <input name="confirm_password" type="password" placeholder="Confirma tu clave">
-            <label for="nombre">Nombre:</label>
-            <input name="nombre" type="text" placeholder="Ingresa tu nombre">
-            <label for="apellido">Apellidos:</label>
-            <input name="apellido" type="text" placeholder="Ingresa tu apellido">
-            <label for="telefono">Teléfono:</label>
-            <input name="telefono" type="text" placeholder="Ingresa tu teléfono">
-            <label for="direccion">Dirección:</label>
-            <input name="direccion" type="text" placeholder="Ingresa tu dirección">
+    <h1>Regístrate</h1>
 
-            <a type="back" href="../index.html">Volver</a>
+    <?php if (!empty($error)) { ?>
+        <p>
+            <?= $error ?>
+        </p>
+    <?php } ?>
 
-            <input type="submit" value="Registrarse">
-        </form>
-    </section>
+    <form action="registro.php" method="POST">
+        <label for="usuario">Usuario:</label>
+        <input id="usuario" name="usuario" type="text" placeholder="Ingresa tu usuario">
 
-    <section>
-        <a href="iniciar.php">
-            ¿Ya tienes una cuenta? Inicia sesión aquí.</i>
-        </a>
-    </section>
+        <label for="clave">Contraseña:</label>
+        <input id="clave" name="clave" type="password" placeholder="Ingresa tu clave">
+
+        <label for="confirm_password">Confirmar contraseña:</label>
+        <input id="confirm_password" name="confirm_password" type="password" placeholder="Confirma tu clave">
+
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" name="nombre" type="text" placeholder="Ingresa tu nombre">
+
+        <label for="apellido">Apellidos:</label>
+        <input id="apellido" name="apellido" type="text" placeholder="Ingresa tu apellido">
+
+        <label for="telefono">Teléfono:</label>
+        <input id="telefono" name="telefono" type="text" placeholder="Ingresa tu teléfono">
+
+        <label for="direccion">Dirección:</label>
+        <input id="direccion" name="direccion" type="text" placeholder="Ingresa tu dirección">
+
+        <a href="../index.html">Volver</a>
+
+        <input type="submit" value="Registrarse">
+    </form>
+
+    <a href="iniciar.php">
+        ¿Ya tienes una cuenta? Inicia sesión aquí.</i>
+    </a>
+
 </main>
 
 </body>

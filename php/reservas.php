@@ -9,15 +9,15 @@ $resources = json_decode($resourceController->getResources());
 ?>
 
 <main>
-    <h1>Reserva de recursos</h1>
-
-    <?php if (!empty($_GET['failed'])) { ?>
-        <p>
-            <?= json_decode($_GET['failed']) ?>
-        </p>
-    <?php } ?>
     <section>
-        <a type="button" href="./recurso.php">Nuevo recurso</a>
+        <h1>Reserva de recursos</h1>
+
+        <?php if (!empty($_GET['failed'])) { ?>
+            <p>
+                <?= json_decode($_GET['failed']) ?>
+            </p>
+        <?php } ?>
+        <a href="./recurso.php">Nuevo recurso</a>
 
         <table>
             <caption>Recursos disponibles</caption>
@@ -46,7 +46,7 @@ $resources = json_decode($resourceController->getResources());
                     </td>
 
                     <td>
-                        <a type="button" href="<?= "./reservar.php?id=" . $dat->id ?>">
+                        <a href="<?= "./reservar.php?id=" . $dat->id ?>">
                             Reservar
                         </a>
                     </td>

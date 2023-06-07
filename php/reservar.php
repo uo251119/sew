@@ -21,23 +21,23 @@ if (!empty($_GET)) {
             </p>
         <?php } ?>
 
-        <form role="form" id="quickForm" method="post" action="abm_reservar.php">
+        <form id="quickForm" method="post" action="abm_reservar.php">
             <input type="hidden" name="id" value="<?php echo $data[0]->id; ?>">
 
             <label for="nombre">Recurso</label>
-            <input type="text" value="<?php echo $data[0]->descripcion ?>" name="descripcion" readonly>
-            <label>Precio</label>
-            <input type="text" value="<?php echo $data[0]->precio ?>" name="precio" readonly>
-            <label>Límite de ocupantes</label>
-            <input type="number" value="<?php echo $data[0]->limite ?>" name="limite" readonly>
-            <label>Cantidad de ocupantes que reservar</label>
-            <input type="number" name="cantidad" required="">
-            <label>Fecha de la reserva</label>
-            <input type="date" name="fecha" required="">
-            <label>Hora de la reserva</label>
-            <input type="time" name="hora" required="">
+            <input id="nombre" type="text" value="<?php echo $data[0]->descripcion ?>" name="descripcion" readonly>
+            <label for="precio">Precio</label>
+            <input id="precio" type="text" value="<?php echo $data[0]->precio ?>" name="precio" readonly>
+            <label for="limite">Límite de ocupantes</label>
+            <input id="limite" type="number" value="<?php echo $data[0]->limite ?>" name="limite" readonly>
+            <label for="cantidad">Cantidad de ocupantes que reservar</label>
+            <input id="cantidad" type="number" name="cantidad" required="">
+            <label for="fecha">Fecha de la reserva</label>
+            <input id="fecha" type="date" name="fecha" required="">
+            <label for="hora">Hora de la reserva</label>
+            <input id="hora" type="time" name="hora" required="">
 
-            <a type="back" href="./reservas.php">Cancelar</a>
+            <a href="./reservas.php">Cancelar</a>
             <input type="submit" value="Reservar">
         </form>
     </main>

@@ -20,27 +20,27 @@ if (!empty($_POST)) {
 ?>
 
 <main>
-    <section>
-        <h1>Iniciar Sesión</h1>
-        <?php if (!empty($error)) { ?>
-            <p>
-                <?= $error ?>
-            </p>
-        <?php } ?>
-        <form action="iniciar.php" method="POST">
-            <label for="usuario">Usuario:</label>
-            <input type="text" placeholder="Introduzca el nombre de usuario" name="usuario">
-            <label for="clave">Contraseña:</label>
-            <input type="password" placeholder="Introduzca la contraseña" name="clave">
-            <a type="back" href="../index.html">Volver</a>
-            <input type="submit" value="Entrar">
-        </form>
-    </section>
-    <section>
-        <a href="registro.php">
-            ¿Todavía no te has registrado? Hazlo aquí.</i>
-        </a>
-    </section>
+    <h1>Iniciar Sesión</h1>
+    <?php if (!empty($error)) { ?>
+        <p>
+            <?= $error ?>
+        </p>
+    <?php } ?>
+    <form action="iniciar.php" method="POST">
+        <label for="usuario">Usuario:</label>
+        <input id="usuario" type="text" placeholder="Introduzca el nombre de usuario" name="usuario">
+
+        <label for="clave">Contraseña:</label>
+        <input id="clave" type="password" placeholder="Introduzca la contraseña" name="clave">
+
+        <a href="../index.html">Volver</a>
+
+        <input type="submit" value="Entrar">
+    </form>
+
+    <a href="registro.php">
+        ¿Todavía no te has registrado? Hazlo aquí.</i>
+    </a>
 </main>
 
 </body>

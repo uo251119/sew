@@ -15,6 +15,7 @@ if (!empty($_SESSION['usuario'])) {
 <?php if (!empty($data)) { ?>
     <main>
         <h1>Presupuesto</h1>
+
         <table>
             <caption>Detalle del presupuesto</caption>
             <tr>
@@ -51,7 +52,7 @@ if (!empty($_SESSION['usuario'])) {
                     </td>
 
                     <td>
-                        <a type="button" href="<?= "./eliminar_reserva.php?id=$dat->id" ?>">
+                        <a href="<?= "./eliminar_reserva.php?id=$dat->id" ?>">
                             Eliminar
                         </a>
                     </td>
@@ -62,16 +63,18 @@ if (!empty($_SESSION['usuario'])) {
                 ?>
         </table>
 
-        <p>Total presupuesto:
-            <?php echo $total . "€"; ?>
+        <p>
+            Total presupuesto:
+            <?php echo "$total €"; ?>
         </p>
 
-        <a type="back" href="./iniciar.php">Volver</a>
+        <a href="./iniciar.php">Volver</a>
     </main>
 
 <?php } else { ?>
     <main>
-        <p>No hay presupuestos disponibles actualmente. </p>
-        <a type="back" href="./reservas.php">Volver</a>
+        <h1>Presupuesto</h1>
+        <p>No hay presupuestos disponibles actualmente.</p>
+        <a href="./reservas.php">Volver</a>
     </main>
 <?php } ?>

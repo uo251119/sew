@@ -22,13 +22,19 @@ footer {
 
 nav ul {
     list-style: none;
-    margin: 1em;
 }
 
-nav li a {
+nav ul li {
+    padding: 0.5em;
+    margin: 0.1em;
+
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+nav ul li a {
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+
     font-weight: bold;
     color: #232121;
     text-decoration: none;
