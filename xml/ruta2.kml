@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Rutas</name>
+		<Style id="redLine"><LineStyle><color>ff0000ff</color><width>10</width></LineStyle></Style>
+		<Placemark>
+			<styleUrl>#redLine</styleUrl>
+			<name>Ruta de Cliftons</name>
+			<description>
+			
+            Los primeros nativos que vivieron en las islas, hace ya 3.000 años, se llamaban Ciboney.
+            Sin embargo, la falta de cerámica hace que su origen y cronología sean inciertos. Les
+            siguieron los pueblos arawak o taínos en el año 800 d.C.
+        
+			</description>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>2</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>
+					-62.603211,17.181362,2050
+					-62.606885,17.153665,1700
+					-62.620359,17.115820,4200
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

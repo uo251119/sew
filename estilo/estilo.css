@@ -1,143 +1,252 @@
+/* Especificidad: 0 0 1 */
 html {
-    background: cadetblue;
-    padding: 0;
-    margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 120%;
+    background-color: #313850;
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-header {
-    background: rgb(200, 235, 235);
-    padding: 0.5em;
-    margin: 1em;
-}
-
+/* Especificidad: 0 0 1 */
 footer {
-    text-align: center;
-    background: rgb(200, 235, 235);
-    color: #232121;
-    padding: 1em;
-    margin: 1em;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    padding: 0.5em;
-    margin: 0.1em;
-
-    background-color: aliceblue;
-    border-radius: 0.5rem;
-}
-
-nav ul li a {
-    text-align: center;
-
-    font-weight: bold;
-    color: #232121;
-    text-decoration: none;
-}
-
-nav li a:hover {
-    background-color: #232121;
-    color: rgb(219, 219, 219);
-    text-decoration: none;
-}
-
-dl dt {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
-main {
-    background: rgb(200, 235, 235);
-    max-width: 50em;
+    color: #ffffff;
+    background-color: #252C40;
+    margin: 2em;
     padding: 2em;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 1em;
 
+    text-align: center;
+}
+
+/* Especificidad: 0 0 1 */
+h1 {
+    padding: 1em;
+    color: #ffffff;
+    background-color: #252C40;
+    border-radius: 0.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Especificidad: 0 0 2 */
+header p {
+    text-align: center;
+}
+
+/* Especificidad: 0 0 1 */
+h2 {
+    font-size: x-large;
+    padding: 1em;
+    margin: 0.5em auto 1em;
+    color: #ffffff;
+    background-color: #141823;
     border-radius: 0.5em;
 }
 
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-    background-color: aliceblue;
-}
-
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-
-th, td {
-    border: 1px solid #333;
-    padding: 0.3rem;
-    background-color: aliceblue;
-}
-
-th {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    text-align: left;
-    background-color: rgb(56, 94, 95);
-    color: white;
-}
-
-table caption {
-    font-style: oblique;
-}
-
-main section div {
+/* Especificidad: 0 0 1 */
+h3 {
+    font-size: large;
     padding: 1em;
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aliceblue;
+    color: #ffffff;
+    background-color: #11131C;
+    border-radius: 0.5em;
 }
 
-section img {
-    max-width: 60%;
-    margin: 1em;
+/* Especificidad: 0 0 1 */
+h4 {
+    font-size: medium;
+    padding: 1em;
+    color: #ffffff;
+    background-color: #0D0F15;
+    border-radius: 0.5em;
+}
 
+/* Especificidad: 0 0 1 */
+h5 {
+    font-size: medium;
+    padding: 1em;
+    color: #ffffff;
+    background-color: #08090D;
+    border-radius: 0.5em;
+}
+
+/* Especificidad: 0 0 1 */
+p {
+    color: #ffffff;
+    background-color: #1E1E20;
+    border-radius: 0.5em;
+    padding: 1em;
+    margin: 5px;
+}
+
+/* Especificidad: 0 0 1 */
+nav {
+    color: #1E1E20;
+    background-color: #ffffff;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    grid-template-columns: auto;
+}
+
+/* Especificidad: 0 0 1 */
+a {
+    color: #ffffff;
+    background-color: #1E1E20;
+    padding: 0.5em;
+    margin: 0.3em;
+    border-radius: 0.5em;
     border-style: outset;
 }
 
-section video {
-    max-width: 60%;
-
-    margin: 1em;
+/* Especificidad: 0 1 1 */
+a:hover {
+    color: #1E1E20;
+    background-color: #ffffff;
+    font-weight: bold;
+    border-style: inset;
 }
 
-main section div img {
-    background-color: #c3bfbf;
-    border-radius: 0.5em;
-}
-
-button {
-    background-color: aliceblue;
-    color: black;
-
-    font-size: large;
-    border: none;
-
-    margin: 0.5rem;
-    padding: 0.25rem;
-}
-
-button:hover {
-    background-color: black;
-    color: aliceblue;
-
-    cursor: pointer;
-}
-
-form {
-    background-color: white;
-    margin: 1em;
-    padding: 1em;
-
+/* Especificidad: 0 0 1 */
+main {
+    max-width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2em;
     border-radius: 1em;
+    color: #ffffff;
+    background-color: #252C40;
+}
+
+/* Especificidad: 0 0 1 */
+section {
+    margin: 2em;
+    padding: 2em;
+    border-radius: 1em;
+    color: #ffffff;
+    background-color: #252C40;
+}
+
+/* Especificidad: 0 0 1 */
+form {
+    margin: 1em 4em;
+    padding: 1em;
+    border-radius: 1em;
+    color: #ffffff;
+    background-color: #1E1E20
+}
+
+/* Especificidad: 0 0 1 */
+img {
+    margin: 1em;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ffffff;
+    border-radius: 2px;
+
+    max-width: 80%;
+}
+
+/* Especificidad: 0 0 2 */
+main video {
+    max-width: 70%;
+    min-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Especificidad: 0 0 2 */
+main audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Especificidad: 0 0 1 */
+table {
+    color: #ffffff;
+    background-color: #08090D;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Especificidad: 0 0 2 */
+table th {
+    color: #ffffff;
+    background-color: #0D0F15;
+}
+
+/* Especificidad: 0 0 2 */
+table td {
+    border: #ffffff;
+    border-style: solid;
+    padding: 1em;
+}
+
+/* Especificidad: 0 0 1 */
+input {
+    color: #ffffff;
+    background-color: #08090D;
+    font-size: large;
+
+    border-style: solid;
+}
+
+/* Especificidad: 0 1 1 */
+input:active {
+    color: #08090D;
+    background-color: #ffffff;
+}
+
+/* Especificidad: 0 0 1 */
+ul {
+    color: #ffffff;
+    background-color: #252C40;
+    list-style-type: square;
+}
+
+/* Especificidad: 0 0 2 */
+nav ul {
+    color: #08090D;
+    background-color: #ffffff;
+}
+
+/* Especificidad: 0 1 1 */
+ul :nth-child(3) {
+    color: lightcoral;
+    background-color: #252C40;
+}
+
+/* Especificidad: 0 1 2 */
+nav ul :nth-child(3) {
+    color: #08090D;
+    background-color: #ffffff;
+}
+
+/* Especificidad: 0 0 1 */
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+/* Especificidad: 0 0 2 */
+dl dt {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Especificidad: 0 0 1 */
+article {
+    margin: 2em;
+    padding: 0.2em 1em;
+
+    border-style: dashed;
+    border-color: #ffffff;
+    border-width: 0.1em;
+}
+
+/* Especificidad: 0 0 1 */
+svg {
+    color: #08090D;
+    background-color: #ffffff;
 }

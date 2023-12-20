@@ -1,0 +1,34 @@
+/* 0 0 1 */
+
+h1 {
+    display: block;
+}
+
+/* 0 0 4 */
+
+h2, h3, h4, h5 {
+    display: flex;
+}
+
+/* 0 0 1 */
+
+p {
+    display: flex;
+}
+
+/* Especificidad: 0 0 3 */
+nav ul li {
+    display: inline-block;
+}
+
+/* Especificidad: 0 0 3 */
+ul li a {
+    display: block;
+}
+
+/* 0 0 2 */
+
+main img {
+    display: inline;
+    float: right;
+}

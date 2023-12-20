@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="estilo/estilo.css">
+  <link rel="stylesheet" href="estilo/layout.css">
+  <link rel="stylesheet" href="estilo/api.css">
+  <link rel="icon" type="image/x-icon" href="multimedia/imagenes/favicon.ico">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="js/api.js"></script>
+
+  <title>Temática libre</title>
+</head>
+
+<body>
+  <h1>Temática libre</h1>
+  <nav>
+    <ul>
+      <li><a accesskey="P" tabindex="0" href="index.html">Página principal</a></li>
+      <li><a accesskey="S" tabindex="0" href="sobremi.html">Sobre mí</a></li>
+      <li><a accesskey="N" tabindex="0" href="noticias.html">Noticias</a></li>
+      <li><a accesskey="A" tabindex="0" href="agenda.html">Agenda</a></li>
+      <li><a accesskey="M" tabindex="0" href="meteorologia.html">Meteorología</a></li>
+      <li><a accesskey="V" tabindex="0" href="viajes.php">Viajes</a></li>
+      <li><a accesskey="J" tabindex="0" href="juegos.html">Juegos</a></li>
+      <li><a accesskey="L" tabindex="0" href="php/index.php">Temática Libre PHP</a></li>
+    </ul>
+  </nav>
+  <section>
+    <h2>Elige un juego:</h2>
+    <ul>
+      <li><a href="memoria.html">Juego de Memoria</a></li>
+      <li><a href="sudoku.html">Sudoku</a></li>
+      <li><a href="crucigrama.php">Crucigrama Matemático</a></li>
+      <li><a href="api.html">Temática Libre</a></li>
+    </ul>
+  </section>
+
+  <p>Arrastra archivos al área de texto para añadir su contenido.</p>
+
+  <textarea id="text" cols="100" rows="20" ondrop="api.loadText(event);"
+    ondragover="api.dragOverHandler(event);"></textarea>
+
+  <button id="copy" onclick="api.copyText();">Copiar contenido en el portapapeles</button>
+
+  <script>let api = new Api();</script>
+</body>
+
+</html>

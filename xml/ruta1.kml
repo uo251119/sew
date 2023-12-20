@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Rutas</name>
+		<Style id="redLine"><LineStyle><color>ff0000ff</color><width>10</width></LineStyle></Style>
+		<Placemark>
+			<styleUrl>#redLine</styleUrl>
+			<name>Ruta de La Parroquia</name>
+			<description>
+			
+            Es el país más pequeño del continente americano, tanto en tamaño como en población
+            por lo que es considerado un microestado. San Cristóbal y Nieves poseen una superficie
+            de 261 kilómetros cuadrados y una población de 54.961 habitantes. Su capital
+            y ciudad más poblada es Basseterre, en San Cristóbal.
+        
+			</description>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>2</tessellate>
+				<altitudeMode>clampToGround</altitudeMode>
+				<coordinates>
+					-62.795681,17.341180,1000
+					-62.774445,17.369206,1500
+					-62.682328,17.282227,1300
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Document>
+</kml>

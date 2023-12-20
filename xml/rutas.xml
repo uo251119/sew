@@ -1,165 +1,153 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rutas SYSTEM "rutas.dtd">
 <rutas>
     <ruta>
-        <nombre>Ruta Castro de Coaña</nombre>
+        <nombre>Ruta de La Parroquia</nombre>
         <tipo>Arquitectura y monumentos</tipo>
         <medioTransporte>A pie</medioTransporte>
-        <fechaInicio>05-05-2023</fechaInicio>
+        <fechaInicio>05-05-2024</fechaInicio>
         <horaInicio>08:00</horaInicio>
         <duracion>4 horas</duracion>
         <agencia>Sin agencia</agencia>
-        <descripcion>Nuestros antepasados dejaron en estas tierras y las vecinas numerosas huellas
-            de su existencia; el número de castros, o poblados fortificados de la Edad de Hierro, es
-            muy elevado, aunque pocos han sido excavados. De entre todos posiblemente el más
-            conocido y de mayor tamaño es el Castro de Coaña, también conocido como el Castillón de
-            Villacondide o Castelón de Coaña, que fue el primero en ser estudiado.</descripcion>
+        <descripcion> Es el país más pequeño del continente americano, tanto en tamaño como en
+            población por lo que es considerado un microestado. San Cristóbal y Nieves poseen una
+            superficie de 261 kilómetros cuadrados y una población de 54.961 habitantes. Su capital
+            y ciudad más poblada es Basseterre, en San Cristóbal. </descripcion>
         <personasAdecuadas>Se puede ir con niños</personasAdecuadas>
-        <lugarInicio>Instalaciones culturales de Coaña</lugarInicio>
-        <direccionInicio>Coaña</direccionInicio>
+        <lugarInicio>Parroquia de Saint Thomas Middle Island</lugarInicio>
+        <direccionInicio>Saint Thomas Middle Island</direccionInicio>
         <coordenadas>
-            <latitud>39.4605</latitud>
-            <longitud>-3.60672</longitud>
+            <latitud>17.341180</latitud>
+            <longitud>-62.795681</longitud>
             <altitud>1000</altitud>
         </coordenadas>
         <recomendacion>9</recomendacion>
         <referencias>
+            <referencia> https://es.wikiloc.com/rutas/outdoor/san-cristobal-y-nieves</referencia>
             <referencia>
-                https://es.wikiloc.com/rutas-senderismo/castro-de-coana-villacondide-porto-castro-de-coana-87479821</referencia>
-            <referencia>https://www.castrosdeasturias.es/castros/46/15/el-castro-de-coaa</referencia>
-            <referencia>https://es.wikipedia.org/wiki/Castro_de_Coaña</referencia>
+                https://www.exteriores.gob.es/Documents/FichasPais/SANCRISTOBALYNIEVES_FICHA%20PAIS.pdf</referencia>
+            <referencia>https://observatorioplanificacion.cepal.org/es/paises/san-cristobal-y-nieves</referencia>
         </referencias>
         <hitos>
             <hito>
-                <nombre>Villacondide al amanecer</nombre>
+                <nombre>Parroquia de Saint Thomas Middle Island</nombre>
                 <descripcion>Excelentes vistas del amanecer</descripcion>
                 <coordenadas>
-                    <latitud>39.4605</latitud>
-                    <longitud>-3.60680</longitud>
+                    <latitud>17.341180</latitud>
+                    <longitud>-62.795681</longitud>
                     <altitud>1000</altitud>
                 </coordenadas>
-                <distanciaHitoAnterior
-                    unidades="m">500</distanciaHitoAnterior>
+                <distanciaHitoAnterior unidades="m">500</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>villacondide_al_amanecer.jpg</fotografia>
-                    <fotografia>comida2.jpg</fotografia>
+                    <fotografia>parroquia_saint_thomas.jpg</fotografia>
+                    <fotografia>saint_thomas_map.png</fotografia>
                 </fotografias>
                 <videos>
-                    <video>gastronomia.mp4</video>
+                    <video>saint_thomas.mp4</video>
                 </videos>
             </hito>
             <hito>
-                <nombre>Río Navia</nombre>
-                <descripcion>Vistas al río Navia</descripcion>
+                <nombre>Parroquia de Chist Church Nichola Town</nombre>
+                <descripcion>Vistas al río</descripcion>
                 <coordenadas>
-                    <latitud>39.4604</latitud>
-                    <longitud>-3.60686</longitud>
+                    <latitud>17.369206</latitud>
+                    <longitud>-62.774445</longitud>
                     <altitud>1500</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">600</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>rio_navia.jpg</fotografia>
+                    <fotografia>nichola_town.jpg</fotografia>
                 </fotografias>
             </hito>
             <hito>
-                <nombre>Castro de coaña</nombre>
-                <descripcion>El Castro de Coaña estuvo ocupado desde aproximadamente el siglo V
-                    hasta después de la conquista romana, cuando se alteró significativamente la
-                    aquitectura urbana del lugar.</descripcion>
+                <nombre>Parroquia de Saint George Basseterre</nombre>
+                <descripcion>Finalizamos la ruta descansando con las vistas</descripcion>
                 <coordenadas>
-                    <latitud>39.4603</latitud>
-                    <longitud>-3.6090</longitud>
+                    <latitud>17.282227</latitud>
+                    <longitud>-62.682328</longitud>
                     <altitud>1300</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">300</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>Castro_de_Coaña.JPG</fotografia>
+                    <fotografia>saint_george.jpeg</fotografia>
                 </fotografias>
             </hito>
         </hitos>
     </ruta>
 
     <ruta>
-        <nombre>Cordal de Coaña (Circular)</nombre>
+        <nombre>Ruta de Cliftons</nombre>
         <tipo>Senderismo</tipo>
         <medioTransporte>A pie o bicicleta</medioTransporte>
-        <fechaInicio>15-05-2023</fechaInicio>
+        <fechaInicio>15-05-2024</fechaInicio>
         <horaInicio>12:00</horaInicio>
         <duracion>4 horas</duracion>
         <agencia>NaturAller</agencia>
-        <descripcion>Recorrido que transcurre en su mayor parte por asfalto (la subida es
-            prácticamente toda por asfalto y también los últimos kilómetros). La parte que no es de
-            asfalto discurre por una pista amplia y perfectamente desbrozada. La señalización del
-            tramo que es oficial (WP11 hasta el final) es algo corta, falta en algunos cruces por lo
-            que habrá que ir atentos al mapa o GPS. Estupendas vistas de la Costa Naviega y de las
-            vegas y montañas de Coaña. Para iniciar el recorrido salimos del aparcamiento del Castro
-            de Coaña (no lo pudimos visitar por estar ese día cerrado) para virando a la izquierda
-            tomar el primer desvío a la derecha. Nuestro objetivo es llegar al Mirador de
-            Bustabernego (11). En este punto, como ya queda dicho, comienza la Ruta del Cordal de
-            Coaña. Desde aquí, algo mas de 5,5 kilómetros de subida, no muy pronunciada, y luego
-            descenso has llegar al final del recorrido</descripcion>
+        <descripcion> Los primeros nativos que vivieron en las islas, hace ya 3.000 años, se
+            llamaban Ciboney. Sin embargo, la falta de cerámica hace que su origen y cronología sean
+            inciertos. Les siguieron los pueblos arawak o taínos en el año 800 d.C. </descripcion>
         <personasAdecuadas>Cualquier persona</personasAdecuadas>
-        <lugarInicio>Villacondide</lugarInicio>
-        <direccionInicio>Vilalcondide centro cultural</direccionInicio>
+        <lugarInicio>Cliftons</lugarInicio>
+        <direccionInicio>Cliftons centro Cultural</direccionInicio>
         <coordenadas>
-            <latitud>37.101166</latitud>
-            <longitud>-3.60672</longitud>
+            <latitud>17.181362</latitud>
+            <longitud>-62.603211</longitud>
             <altitud>2000</altitud>
         </coordenadas>
         <recomendacion>8</recomendacion>
         <referencias>
-            <referencia>https://es.wikiloc.com/rutas-senderismo/cordal-de-coana-circular-29043204</referencia>
+            <referencia>https://observatorioplanificacion.cepal.org/es/paises/san-cristobal-y-nieves</referencia>
             <referencia>https://www.villacondide.com</referencia>
-            <referencia>https://es.wikipedia.org/wiki/Villacondide</referencia>
+            <referencia>https://www.datosmundial.com/america/cristobal-nieves/index.php</referencia>
         </referencias>
         <hitos>
             <hito>
-                <nombre>Depósito de agua</nombre>
+                <nombre>Cliftons centro Cultural</nombre>
                 <descripcion>Inicio de la ruta</descripcion>
                 <coordenadas>
-                    <latitud>37.101165</latitud>
-                    <longitud>-3.240442</longitud>
+                    <latitud>17.181362</latitud>
+                    <longitud>-62.603211</longitud>
                     <altitud>2050</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">2000</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>deposito_agua.jpg</fotografia>
+                    <fotografia>cliftons.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
-                <nombre>Área recreativa de san Luis</nombre>
-                <descripcion>Pa descansar</descripcion>
+                <nombre>Área recreativa de Vaughans</nombre>
+                <descripcion>Para descansar</descripcion>
                 <coordenadas>
-                    <latitud>37.101163</latitud>
-                    <longitud>-3.240443</longitud>
+                    <latitud>17.153665</latitud>
+                    <longitud>-62.606885</longitud>
                     <altitud>1700</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="km">50</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>area_recreativa_san_luis.jpg</fotografia>
+                    <fotografia>vaughans.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
-                <nombre>Cima</nombre>
+                <nombre>Parroquia de Saint John Figtree</nombre>
                 <descripcion>Final de la ruta</descripcion>
                 <coordenadas>
-                    <latitud>37.101111</latitud>
-                    <longitud>-3.247444</longitud>
+                    <latitud>17.115820</latitud>
+                    <longitud>-62.620359</longitud>
                     <altitud>4200</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">10</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>cima.jpg</fotografia>
+                    <fotografia>saint_john_figtree.png</fotografia>
                 </fotografias>
             </hito>
         </hitos>
     </ruta>
 
     <ruta>
-        <nombre>Coaña-Estilleiro-Chao de Villacondide-Castro-Coaña</nombre>
+        <nombre>Ruta de Rices</nombre>
         <tipo>Senderismo</tipo>
         <medioTransporte>A pie</medioTransporte>
-        <fechaInicio>01-06-2023</fechaInicio>
+        <fechaInicio>01-06-2024</fechaInicio>
         <horaInicio>09:00</horaInicio>
         <duracion>3 horas</duracion>
         <agencia>Sin agencia</agencia>
@@ -168,56 +156,55 @@
         <lugarInicio>Coaña</lugarInicio>
         <direccionInicio>Estilleiro</direccionInicio>
         <coordenadas>
-            <latitud>37.201111</latitud>
-            <longitud>-3.347444</longitud>
+            <latitud>17.121516</latitud>
+            <longitud>-62.558844</longitud>
             <altitud>200</altitud>
         </coordenadas>
         <recomendacion>7</recomendacion>
         <referencias>
             <referencia>
-                https://es.wikiloc.com/rutas-senderismo/coana-estilleiro-chao-de-villacondide-castro-coana-11251092</referencia>
-            <referencia>https://www.pueblosasturias.es/asturias/c/0/i/43828369/el-estilleiro</referencia>
-            <referencia>
-                https://www.vivirasturias.com/entidades-poblacion/c/0/i/54867724/el-estilleiro</referencia>
+                https://www.tripadvisor.es/Attractions-g147373-Activities-St_Kitts_and_Nevis.html</referencia>
+            <referencia>https://www.airbnb.es/saint-kitts-and-nevis/stays</referencia>
+            <referencia> https://www.fundeu.es/recomendacion/saint-kitts-y-nevis/</referencia>
         </referencias>
         <hitos>
             <hito>
-                <nombre>Estilleiro</nombre>
+                <nombre>Rices</nombre>
                 <descripcion>Disfrute de la vista</descripcion>
                 <coordenadas>
-                    <latitud>39.4305</latitud>
-                    <longitud>-3.30680</longitud>
+                    <latitud>17.121516</latitud>
+                    <longitud>-62.558844</longitud>
                     <altitud>200</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">110</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>Embalse1.jpg</fotografia>
+                    <fotografia>rices.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
-                <nombre>Castro de Coaña</nombre>
-                <descripcion>Disfrute de la vista del increíble castro de Coaña.</descripcion>
+                <nombre>Mannings</nombre>
+                <descripcion>Disfrute de la vista de Mannings.</descripcion>
                 <coordenadas>
-                    <latitud>39.4704</latitud>
-                    <longitud>-3.50486</longitud>
+                    <latitud>17.148090</latitud>
+                    <longitud>-62.563994</longitud>
                     <altitud>500</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">300</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>castro_de_coana01.jpg</fotografia>
+                    <fotografia>mannings.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
-                <nombre>Iglesia de Coaña</nombre>
+                <nombre>Rawlins</nombre>
                 <descripcion>Disfrute del relajante sonido del agua</descripcion>
                 <coordenadas>
-                    <latitud>39.4653</latitud>
-                    <longitud>-3.2490</longitud>
+                    <latitud>17.178926</latitud>
+                    <longitud>-62.579443</longitud>
                     <altitud>700</altitud>
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">500</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>Embalse2.jpg</fotografia>
+                    <fotografia>rawlins.png</fotografia>
                 </fotografias>
             </hito>
         </hitos>

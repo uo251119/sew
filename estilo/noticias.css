@@ -1,0 +1,29 @@
+/* Especificidad: 0 0 1 */
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Especificidad: 0 0 2 */
+section h2 {
+    flex-basis: 100%;
+}
+
+/* Especificidad: 0 0 2 */
+section label {
+    margin: auto 0.5em;
+    font-size: large;
+}
+
+/* Especificidad: 0 0 2 */
+section input {
+    margin: 0.5em 1em;
+    flex-basis: 100%;
+}
+
+/* Especificidad: 0 0 1 */
+button {
+    margin: 1em;
+    padding: 0.5em;
+    font-size: larger;
+}

@@ -1,52 +1,54 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="es">
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meteorología</title>
 
   <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
   <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+  <link rel="icon" type="image/x-icon" href="multimedia/imagenes/favicon.ico">
 
-  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="js/pais.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+  <title>Meteorología</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <a href="index.html">Página Principal</a>
-        </li>
-        <li>
-          <a href="gastronomia.html">Gastronomía</a>
-        </li>
-        <li>
-          <a href="rutas.html">Rutas</a>
-        </li>
-        <li>
-          <a href="meteorologia.html">Meteorología</a>
-        </li>
-        <li>
-          <a href="juego.html">Juego</a>
-        </li>
-        <li>
-          <a href="./php/registro.php">Reservas</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <h1>Meteorología de Coaña</h1>
-    <p>En esta página se puede consultar la previsión meteorológica de la zona de Coaña.</p>
-    <section>
-      <h2>Previsión del tiempo para los próximos 7 días</h2>
-      <div id="meteoData"></div>
-    </section>
-  </main>
+  <h1>Meteorología</h1>
+  <nav>
+    <ul>
+      <li><a accesskey="P" tabindex="0" href="index.html">Página principal</a></li>
+      <li><a accesskey="S" tabindex="0" href="sobremi.html">Sobre mí</a></li>
+      <li><a accesskey="N" tabindex="0" href="noticias.html">Noticias</a></li>
+      <li><a accesskey="A" tabindex="0" href="agenda.html">Agenda</a></li>
+      <li><a accesskey="M" tabindex="0" href="meteorologia.html">Meteorología</a></li>
+      <li><a accesskey="V" tabindex="0" href="viajes.php">Viajes</a></li>
+      <li><a accesskey="J" tabindex="0" href="juegos.html">Juegos</a></li>
+      <li><a accesskey="L" tabindex="0" href="php/index.php">Temática Libre PHP</a></li>
+    </ul>
+  </nav>
+  <script>
+    var pais = new Pais("San Cristóbal y Nieves", "Basseterre", 47606);
+    pais.otrosDatos("Monarquía coonstitucional federal parlamentaria", { latitud: 12.2983, longitud: -62.7341 }, "Cristianismo");
+  </script>
 
-  <script src="js/meteoPrevision.js"></script>
+  <h2>
+    <script>document.write(pais.getNombre())</script>
+  </h2>
+  <p>
+    Capital:
+    <script>document.write(pais.getCapital())</script>
+    <script>pais.writeCoordiatesIntoHTMLDocument()</script>
+  </p>
+
+  <script>document.write(pais.getOtrosDatosHTML())</script>
+
+  <section>
+    <h3>Pronóstico del tiempo en la capital para los próximos 5 días:</h3>
+  </section>
+  <script>pais.cargarMeteoDatos();</script>
 </body>
 
 </html>

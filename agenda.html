@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+  <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+  <link rel="icon" type="image/x-icon" href="multimedia/imagenes/favicon.ico">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="js/agenda.js"></script>
+
+  <title>Agenda</title>
+</head>
+
+<body>
+  <h1>Agenda</h1>
+  <nav>
+    <ul>
+      <li><a accesskey="P" tabindex="0" href="index.html">Página principal</a></li>
+      <li><a accesskey="S" tabindex="0" href="sobremi.html">Sobre mí</a></li>
+      <li><a accesskey="N" tabindex="0" href="noticias.html">Noticias</a></li>
+      <li><a accesskey="A" tabindex="0" href="agenda.html">Agenda</a></li>
+      <li><a accesskey="M" tabindex="0" href="meteorologia.html">Meteorología</a></li>
+      <li><a accesskey="V" tabindex="0" href="viajes.php">Viajes</a></li>
+      <li><a accesskey="J" tabindex="0" href="juegos.html">Juegos</a></li>
+      <li><a accesskey="L" tabindex="0" href="php/index.php">Temática Libre PHP</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <button>Consultar Programación</button>
+  </section>
+
+  <script>
+    let agenda = new Agenda('http://ergast.com/api/f1/current');
+  </script>
+
+</body>
+
+</html>

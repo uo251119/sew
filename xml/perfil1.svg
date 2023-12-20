@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 400" class="chart">
+<style>
+	.text {font: bold 8px serif; }
+</style>
+<line x1="50" y1="262.5" x2="60" y2="243.75" stroke="red" />
+<line x1="60" y1="243.75" x2="70" y2="251.25" stroke="red" />
+</svg>

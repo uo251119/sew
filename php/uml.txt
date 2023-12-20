@@ -1,0 +1,25 @@
+@startuml
+
+object Album
+Album : titulo
+Album : año
+
+object Autor
+Autor : nombre
+
+object Cancion
+Cancion : nombre
+
+object Discografica
+Discografica : nombre
+
+object Genero
+Genero : nombre
+
+
+Album --> Discografica : "producido por"
+Cancion --> Autor : "compuesta por"
+Cancion --> Genero : "pertenece a"
+Cancion --> Album : "pertenece a"
+
+@enduml
