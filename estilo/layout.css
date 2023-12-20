@@ -1,13 +1,13 @@
 /* Especificidad: 0 0 1 */
 header {
-    display: flex;
+    display: block;
 }
 
 @media screen and (min-width: 600px) {
 
     /* Especificidad: 0 0 2 */
     html header {
-        display: block;
+        display: inline-block;
     }
 }
 
