@@ -43,7 +43,8 @@
 
   <p>Arrastra archivos al área de texto para añadir su contenido.</p>
 
-  <textarea id="text" cols="100" rows="20" ondrop="api.loadText(event);"
+  <label for="text">Texto:</label>
+  <textarea id="text" name="text" cols="100" rows="20" ondrop="api.loadText(event);"
     ondragover="api.dragOverHandler(event);"></textarea>
 
   <button id="copy" onclick="api.copyText();">Copiar contenido en el portapapeles</button>
