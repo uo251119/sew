@@ -7,11 +7,9 @@
 			<styleUrl>#redLine</styleUrl>
 			<name>Ruta de Cliftons</name>
 			<description>
-			
-            Los primeros nativos que vivieron en las islas, hace ya 3.000 a√±os, se llamaban Ciboney.
-            Sin embargo, la falta de cer√°mica hace que su origen y cronolog√≠a sean inciertos. Les
-            siguieron los pueblos arawak o ta√≠nos en el a√±o 800 d.C.
-        
+			 Los primeros nativos que vivieron en las islas, hace ya 3.000 aÒos, se
+            llamaban Ciboney. Sin embargo, la falta de cer·mica hace que su origen y cronologÌa sean
+            inciertos. Les siguieron los pueblos arawak o taÌnos en el aÒo 800 d.C. 
 			</description>
 			<LineString>
 				<extrude>1</extrude>

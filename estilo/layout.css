@@ -16,6 +16,10 @@ nav ul li {
     display: inline-block;
 }
 
+nav a {
+    display: block;
+}
+
 /* Especificidad: 0 0 3 */
 ul li a {
     display: block;

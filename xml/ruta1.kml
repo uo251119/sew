@@ -7,12 +7,10 @@
 			<styleUrl>#redLine</styleUrl>
 			<name>Ruta de La Parroquia</name>
 			<description>
-			
-            Es el pa铆s m谩s peque帽o del continente americano, tanto en tama帽o como en poblaci贸n
-            por lo que es considerado un microestado. San Crist贸bal y Nieves poseen una superficie
-            de 261 kil贸metros cuadrados y una poblaci贸n de 54.961 habitantes. Su capital
-            y ciudad m谩s poblada es Basseterre, en San Crist贸bal.
-        
+			 Es el pa韘 m醩 peque駉 del continente americano, tanto en tama駉 como en
+            poblaci髇 por lo que es considerado un microestado. San Crist骲al y Nieves poseen una
+            superficie de 261 kil髆etros cuadrados y una poblaci髇 de 54.961 habitantes. Su capital
+            y ciudad m醩 poblada es Basseterre, en San Crist骲al. 
 			</description>
 			<LineString>
 				<extrude>1</extrude>

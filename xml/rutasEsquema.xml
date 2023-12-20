@@ -7,16 +7,14 @@
         <nombre>Ruta de La Parroquia</nombre>
         <tipo>Arquitectura y monumentos</tipo>
         <medioTransporte>A pie</medioTransporte>
-        <fechaInicio>05-05-2024</fechaInicio>
-        <horaInicio>08:00</horaInicio>
+        <fechaInicio>2024-05-05</fechaInicio>
+        <horaInicio>08:00:00</horaInicio>
         <duracion>4 horas</duracion>
         <agencia>Sin agencia</agencia>
-        <descripcion>
-            Es el país más pequeño del continente americano, tanto en tamaño como en población
-            por lo que es considerado un microestado. San Cristóbal y Nieves poseen una superficie
-            de 261 kilómetros cuadrados y una población de 54.961 habitantes. Su capital
-            y ciudad más poblada es Basseterre, en San Cristóbal.
-        </descripcion>
+        <descripcion> Es el país más pequeño del continente americano, tanto en tamaño como en
+            población por lo que es considerado un microestado. San Cristóbal y Nieves poseen una
+            superficie de 261 kilómetros cuadrados y una población de 54.961 habitantes. Su capital
+            y ciudad más poblada es Basseterre, en San Cristóbal. </descripcion>
         <personasAdecuadas>Se puede ir con niños</personasAdecuadas>
         <lugarInicio>Parroquia de Saint Thomas Middle Island</lugarInicio>
         <direccionInicio>Saint Thomas Middle Island</direccionInicio>
@@ -27,8 +25,7 @@
         </coordenadas>
         <recomendacion>9</recomendacion>
         <referencias>
-            <referencia>
-                https://es.wikiloc.com/rutas/outdoor/san-cristobal-y-nieves</referencia>
+            <referencia> https://es.wikiloc.com/rutas/outdoor/san-cristobal-y-nieves</referencia>
             <referencia>
                 https://www.exteriores.gob.es/Documents/FichasPais/SANCRISTOBALYNIEVES_FICHA%20PAIS.pdf</referencia>
             <referencia>https://observatorioplanificacion.cepal.org/es/paises/san-cristobal-y-nieves</referencia>
@@ -45,7 +42,7 @@
                 <distanciaHitoAnterior unidades="m">500</distanciaHitoAnterior>
                 <fotografias>
                     <fotografia>parroquia_saint_thomas.jpg</fotografia>
-                    <fotografia>saint_thomas_map.jpg</fotografia>
+                    <fotografia>saint_thomas_map.png</fotografia>
                 </fotografias>
                 <videos>
                     <video>saint_thomas.mp4</video>
@@ -74,7 +71,7 @@
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">300</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>saint_george.jpg</fotografia>
+                    <fotografia>saint_george.jpeg</fotografia>
                 </fotografias>
             </hito>
         </hitos>
@@ -84,15 +81,13 @@
         <nombre>Ruta de Cliftons</nombre>
         <tipo>Senderismo</tipo>
         <medioTransporte>A pie o bicicleta</medioTransporte>
-        <fechaInicio>15-05-2024</fechaInicio>
-        <horaInicio>12:00</horaInicio>
+        <fechaInicio>2024-05-15</fechaInicio>
+        <horaInicio>12:00:00</horaInicio>
         <duracion>4 horas</duracion>
         <agencia>NaturAller</agencia>
-        <descripcion>
-            Los primeros nativos que vivieron en las islas, hace ya 3.000 años, se llamaban Ciboney.
-            Sin embargo, la falta de cerámica hace que su origen y cronología sean inciertos. Les
-            siguieron los pueblos arawak o taínos en el año 800 d.C.
-        </descripcion>
+        <descripcion> Los primeros nativos que vivieron en las islas, hace ya 3.000 años, se
+            llamaban Ciboney. Sin embargo, la falta de cerámica hace que su origen y cronología sean
+            inciertos. Les siguieron los pueblos arawak o taínos en el año 800 d.C. </descripcion>
         <personasAdecuadas>Cualquier persona</personasAdecuadas>
         <lugarInicio>Cliftons</lugarInicio>
         <direccionInicio>Cliftons centro Cultural</direccionInicio>
@@ -118,7 +113,7 @@
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">2000</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>cliftons.jpg</fotografia>
+                    <fotografia>cliftons.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
@@ -131,7 +126,7 @@
                 </coordenadas>
                 <distanciaHitoAnterior unidades="km">50</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>area_recreativa_san_luis.jpg</fotografia>
+                    <fotografia>vaughans.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
@@ -144,7 +139,7 @@
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">10</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>saint_john_figtree.jpg</fotografia>
+                    <fotografia>saint_john_figtree.png</fotografia>
                 </fotografias>
             </hito>
         </hitos>
@@ -154,8 +149,8 @@
         <nombre>Ruta de Rices</nombre>
         <tipo>Senderismo</tipo>
         <medioTransporte>A pie</medioTransporte>
-        <fechaInicio>01-06-2024</fechaInicio>
-        <horaInicio>09:00</horaInicio>
+        <fechaInicio>2024-06-01</fechaInicio>
+        <horaInicio>09:00:00</horaInicio>
         <duracion>3 horas</duracion>
         <agencia>Sin agencia</agencia>
         <descripcion>Familiar y amigos</descripcion>
@@ -172,8 +167,7 @@
             <referencia>
                 https://www.tripadvisor.es/Attractions-g147373-Activities-St_Kitts_and_Nevis.html</referencia>
             <referencia>https://www.airbnb.es/saint-kitts-and-nevis/stays</referencia>
-            <referencia>
-                https://www.fundeu.es/recomendacion/saint-kitts-y-nevis/</referencia>
+            <referencia> https://www.fundeu.es/recomendacion/saint-kitts-y-nevis/</referencia>
         </referencias>
         <hitos>
             <hito>
@@ -186,7 +180,7 @@
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">110</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>rices.jpg</fotografia>
+                    <fotografia>rices.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
@@ -199,7 +193,7 @@
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">300</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>mannings.jpg</fotografia>
+                    <fotografia>mannings.png</fotografia>
                 </fotografias>
             </hito>
             <hito>
@@ -212,7 +206,7 @@
                 </coordenadas>
                 <distanciaHitoAnterior unidades="m">500</distanciaHitoAnterior>
                 <fotografias>
-                    <fotografia>rawlins.jpg</fotografia>
+                    <fotografia>rawlins.png</fotografia>
                 </fotografias>
             </hito>
         </hitos>

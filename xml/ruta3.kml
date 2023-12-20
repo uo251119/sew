@@ -1,72 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-	<Document>
-		<name>Rutas</name>
-		<Style id="redLine"><LineStyle><color>ff0000ff</color><width>10</width></LineStyle></Style>
-		<Placemark>
-			<styleUrl>#redLine</styleUrl>
-			<name>Ruta de Rices</name>
-			<description>
-			Familiar y amigos
-			</description>
-			<LineString>
-				<extrude>1</extrude>
-				<tessellate>2</tessellate>
-				<altitudeMode>clampToGround</altitudeMode>
-				<coordinates>
-					17.121516,-62.558844,200,
-					17.148090,-62.563994,500,
-					17.178926,-62.579443,700,
-				</coordinates>
-			</LineString>
-		</Placemark>
-	</Document>
-</kml>
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-	<Document>
-		<name>Rutas</name>
-		<Style id="redLine"><LineStyle><color>ff0000ff</color><width>10</width></LineStyle></Style>
-		<Placemark>
-			<styleUrl>#redLine</styleUrl>
-			<name>Ruta de Rices</name>
-			<description>
-			Familiar y amigos
-			</description>
-			<LineString>
-				<extrude>1</extrude>
-				<tessellate>2</tessellate>
-				<altitudeMode>clampToGround</altitudeMode>
-				<coordinates>
-					17.121516,-62.558844,200,
-					17.148090,-62.563994,500,
-					17.178926,-62.579443,700,
-				</coordinates>
-			</LineString>
-		</Placemark>
-	</Document>
-</kml>
-<?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
-	<Document>
-		<name>Rutas</name>
-		<Style id="redLine"><LineStyle><color>ff0000ff</color><width>10</width></LineStyle></Style>
-		<Placemark>
-			<styleUrl>#redLine</styleUrl>
-			<name>Ruta de Rices</name>
-			<description>
-			Familiar y amigos
-			</description>
-			<LineString>
-				<extrude>1</extrude>
-				<tessellate>2</tessellate>
-				<altitudeMode>clampToGround</altitudeMode>
-				<coordinates>
-					-62.558844,17.121516,200
-					-62.563994,17.148090,500
-					-62.579443,17.178926,700
-				</coordinates>
-			</LineString>
-		</Placemark>
-	</Document>
+    <Document>
+        <name>Rutas</name>
+        <Style id="redLine">
+            <LineStyle>
+                <color>ff0000ff</color>
+                <width>10</width>
+            </LineStyle>
+        </Style>
+        <Placemark>
+            <styleUrl>#redLine</styleUrl>
+            <name>Ruta de Rices</name>
+            <description>
+                Familiar y amigos
+            </description>
+            <LineString>
+                <extrude>1</extrude>
+                <tessellate>2</tessellate>
+                <altitudeMode>clampToGround</altitudeMode>
+                <coordinates>
+                    -62.558844,17.121516,200
+                    -62.563994,17.148090,500
+                    -62.579443,17.178926,700
+                </coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
 </kml>
