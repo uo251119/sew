@@ -235,10 +235,10 @@ class Crucigrama {
             + '<label for="level">Nivel:</label>'
             + '<input id="level" name="level" type="text" value="' + nivel + '" readonly="readonly">'
             + '<label for="time">Tiempo (s):</label>'
-            + '<input id="time" name="time" type="number" value="' + parseInt((this.end_time - this.init_time) / 1000) + '" disabled>'
+            + '<input id="time" name="time" type="number" value="' + parseInt((this.end_time - this.init_time) / 1000) + '" readonly="readonly">'
             + '<input type="submit" value="Guardar">'
             + '</form>';
 
-        $('body section:eq(1)').append(formHtmlString);
+        $('body').append(formHtmlString);
     }
 }

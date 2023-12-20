@@ -145,21 +145,23 @@ if (!empty($_POST)) {
 
         <section>
             <h2>Mapa dinámico</h2>
-            <section>error</section>
+            <section>
+                <h3>Mapa dinámico</h3>
+            </section>
         </section>
 
         <script>let viajes = new Viajes();</script>
         <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=viajes.mapaDinamicoGoogle.initMap"></script>
 
-        <label for="fileInput">Introduce un archivo de rutas (XML):</label>
-        <input type="file" id="fileInput" onchange="viajes.loadRutasFile(this.files)">
+        <label for="fileInputRutas">Introduce un archivo de rutas (XML):</label>
+        <input type="file" id="fileInputRutas" onchange="viajes.loadRutasFile(this.files)">
         <section id="rutas">
             <h2>Rutas cargadas:</h2>
         </section>
 
-        <label for="fileInput">Introduce varios archivos de altimetría (SVG):</label>
-        <input type="file" id="fileInput" onchange="viajes.loadAltimetriaFiles(this.files)" multiple>
+        <label for="fileInputAltimetria">Introduce varios archivos de altimetría (SVG):</label>
+        <input type="file" id="fileInputAltimetria" onchange="viajes.loadAltimetriaFiles(this.files)" multiple>
         <section id="altimetrias">
             <h2>Altimetrías:</h2>
         </section>

@@ -57,7 +57,7 @@ class Viajes {
     }
 
     cargarDatosMapaDinamico() {
-        let mapaElement = document.getElementsByTagName('main')[0].getElementsByTagName('section')[0].getElementsByTagName('section')[0];
+        let mapaElement = document.getElementsByTagName('main')[0].getElementsByTagName('section')[1].getElementsByTagName('section')[0];
 
         let position = { lat: this.latitude, lng: this.longitude };
         let mapa = new google.maps.Map(mapaElement, { zoom: 8, center: position });

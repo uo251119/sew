@@ -73,7 +73,7 @@ $genres = $createGenre->getGenres();
     <h1>Crear nuevo género</h1>
     <form action="createGenre.php" method="post">
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" />
+        <input type="text" name="nombre" id="nombre">
 
         <button type="submit">Crear</button>
     </form>

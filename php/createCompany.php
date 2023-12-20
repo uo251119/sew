@@ -73,7 +73,7 @@ $companies = $createCompany->getCompanies();
     <h1>Crear nueva discográfica</h1>
     <form action="createCompany.php" method="post">
         <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" />
+        <input type="text" name="nombre" id="nombre">
 
         <button type="submit">Crear</button>
     </form>

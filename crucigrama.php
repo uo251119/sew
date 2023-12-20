@@ -89,15 +89,13 @@ if (!empty($_POST)) {
             <li><a href="api.html">Temática Libre</a></li>
         </ul>
     </section>
-    <section>
-        <h2>Crucigrama Matemático</h2>
+    <h2>Crucigrama Matemático</h2>
 
-        <button onclick="crucigrama.start(1);">Nivel Fácil</button>
-        <button onclick="crucigrama.start(2);">Nivel Intermedio</button>
-        <button onclick="crucigrama.start(3);">Nivel Difícil</button>
+    <button onclick="crucigrama.start(1);">Nivel Fácil</button>
+    <button onclick="crucigrama.start(2);">Nivel Intermedio</button>
+    <button onclick="crucigrama.start(3);">Nivel Difícil</button>
 
-        <main></main>
-    </section>
+    <main></main>
 
     <script src="js/crucigrama.js"></script>
     <script>let crucigrama = new Crucigrama();</script>

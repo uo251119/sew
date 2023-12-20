@@ -93,12 +93,13 @@ $genres = $createSong->getGenres();
     <h1>Crear nueva canción</h1>
     <form action="createSong.php" method="post">
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" />
+        <input type="text" name="nombre" id="nombre">
 
-        <label for="albumId">Album</label>
         <?php if (count($albums) == 0) { ?>
-            <p id="noAlbumError">No se ha encontrado ningún album en la base de datos</p>
+            <p>Album</p>
+            <p>No se ha encontrado ningún album en la base de datos</p>
         <?php } else { ?>
+            <label for="albumId">Album</label>
             <select name="albumId" id="albumId">
                 <?php foreach ($albums as $album) { ?>
                     <option value="<?php echo $album['album_id'] ?>">
@@ -108,10 +109,11 @@ $genres = $createSong->getGenres();
             </select>
         <?php } ?>
 
-        <label for="autorId">Autor</label>
         <?php if (count($authors) == 0) { ?>
-            <p id="noAuthorError">No se ha encontrado ningún autor en la base de datos</p>
+            <p>Autor</p>
+            <p>No se ha encontrado ningún autor en la base de datos</p>
         <?php } else { ?>
+            <label for="autorId">Autor</label>
             <select name="autorId" id="autorId">
                 <?php foreach ($authors as $authors) { ?>
                     <option value="<?php echo $authors['autor_id'] ?>">
@@ -121,10 +123,11 @@ $genres = $createSong->getGenres();
             </select>
         <?php } ?>
 
-        <label for="generoId">Género</label>
         <?php if (count($genres) == 0) { ?>
-            <p id="noGenreError">No se ha encontrado ningún autor en la base de datos</p>
+            <p>Género</p>
+            <p>No se ha encontrado ningún género en la base de datos</p>
         <?php } else { ?>
+            <label for="generoId">Género</label>
             <select name="generoId" id="generoId">
                 <?php foreach ($genres as $genre) { ?>
                     <option value="<?php echo $genre['genero_id'] ?>">

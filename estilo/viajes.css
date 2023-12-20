@@ -10,6 +10,11 @@ body section {
     border-radius: 0;
 }
 
+/* Especificidad: 0 0 2 */
+body main section {
+    display: block;
+}
+
 /* Especificidad: 0 0 3 */
 body section h2 {
     flex-basis: 100%;
@@ -23,6 +28,11 @@ body section img {
 
     margin-left: auto;
     margin-right: auto;
+}
+
+body main section img {
+    border-style: outset;
+    margin: 1em;
 }
 
 /* Especificidad: 0 0 2 */

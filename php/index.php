@@ -115,21 +115,21 @@ if (isset($_FILES["importDatabaseFile"]) && $_FILES["importDatabaseFile"]["error
 
         <form action="#" method="post">
             <label for="databaseName">Nombre de la base de datos:</label>
-            <input type="text" name="databaseName" id="databaseName" />
+            <input type="text" name="databaseName" id="databaseName">
 
             <button type="submit">Crear base de datos</button>
         </form>
 
         <form action="#" method="post">
             <label for="importDatabaseFile">Importar base de datos (CSV):</label>
-            <input type="file" name="importDatabaseFile" id="importDatabaseFile" accept=".csv" />
+            <input type="file" name="importDatabaseFile" id="importDatabaseFile" accept=".csv">
 
             <button type="submit">Importar base de datos</button>
         </form>
 
         <form action="#" method="post">
             <label for="exportDatabaseFile">Nombre del archivo exportado:</label>
-            <input type="text" name="exportDatabaseFile" id="exportDatabaseFile" />
+            <input type="text" name="exportDatabaseFile" id="exportDatabaseFile">
 
             <button type="submit">Exportar base de datos</button>
         </form>

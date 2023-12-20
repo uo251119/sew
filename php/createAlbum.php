@@ -82,15 +82,16 @@ $albums = $createAlbum->getAlbums();
     <h1>Crear nuevo álbum</h1>
     <form action="createAlbum.php" method="post">
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" />
+        <input type="text" name="nombre" id="nombre">
 
         <label for="año">año</label>
-        <input name="año" id="año" type="number" min="1900" max="2099" step="1" value="2000" />
+        <input name="año" id="año" type="number" min="1900" max="2099" step="1" value="2000">
 
-        <label for="discograficaId">Discográfica</label>
         <?php if (count($companies) == 0) { ?>
-            <p id="noCompanyError">No se ha encontrado ningúa discográfica en la base de datos</p>
+            <p>Discográfica</p>
+            <p>No se ha encontrado ninguna discográfica en la base de datos</p>
         <?php } else { ?>
+            <label for="discograficaId">Discográfica</label>
             <select name="discograficaId" id="discograficaId">
                 <?php foreach ($companies as $company) { ?>
                     <option value="<?php echo $company['discografica_id'] ?>">
