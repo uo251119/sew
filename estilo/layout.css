@@ -32,3 +32,8 @@ form {
 main {
     display: block;
 }
+
+/* Especificidad: 0 0 2 */
+footer a {
+    display: block;
+}
